@@ -193,14 +193,11 @@ def run_scenario(
                 delivery_time = (
                     time_step + forwarding_delay
                 )
-
                 queued_packet.deliver(
                     delivery_time,
                     best_relay.node_id
                 )
-
                 delivered_packets += 1
-
                 total_delay += (
                     queued_packet.delay()
                 )
