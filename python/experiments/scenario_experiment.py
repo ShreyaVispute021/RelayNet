@@ -174,6 +174,37 @@ def run_scenario(
                 time_step
             )
 
+            # Process one packet that was already waiting
+            # in this relay's queue.
+            if relay_queue.size() > 0 and time_step > 0:
+
+                queued_packet, arrival_time = (
+                    relay_queue.dequeue()
+                )
+
+                waiting_time = (
+                    time_step - arrival_time
+                )
+
+                forwarding_delay = (
+                    1 + waiting_time
+                )
+
+                delivery_time = (
+                    time_step + forwarding_delay
+                )
+
+                queued_packet.deliver(
+                    delivery_time,
+                    best_relay.node_id
+                )
+
+                delivered_packets += 1
+
+                total_delay += (
+                    queued_packet.delay()
+                )
+
             if not queued:
                 continue
 
