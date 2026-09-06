@@ -1,5 +1,5 @@
 import random
-
+import csv
 from python.relaynet.scenarios import SCENARIOS
 from python.relaynet.traffic import TrafficGenerator
 from python.relaynet.relay_selection import select_best_relay
@@ -85,12 +85,10 @@ def update_network(
         if time_step % traffic_interval == 0:
             relay.queue_length += 1
 
-        # Relay processing capacity.
-        processing_capacity = 1
-
-        relay.queue_length = max(
-            0,
-            relay.queue_length - processing_capacity
+        # Keep queue length bounded by relay capacity.
+        relay.queue_length = min(
+            relay.queue_length,
+            20
         )
 
     # Explicit relay failure scenario
@@ -166,21 +164,14 @@ def run_scenario(
 
         if success:
 
-            if queue_overflow(best_relay):
+            if relay_queue.is_full():
                 continue
 
-            queued = relay_queue.enqueue(
-                packet,
-                time_step
-            )
+            # Process a packet that was already waiting
+            # before the current packet was added.
+            if relay_queue.size() > 0:
 
-            # Process one packet that was already waiting
-            # in this relay's queue.
-            if relay_queue.size() > 0 and time_step > 0:
-
-                queued_packet, arrival_time = (
-                    relay_queue.dequeue()
-                )
+                queued_packet, arrival_time = relay_queue.dequeue()
 
                 waiting_time = (
                     time_step - arrival_time
@@ -193,39 +184,23 @@ def run_scenario(
                 delivery_time = (
                     time_step + forwarding_delay
                 )
+
                 queued_packet.deliver(
                     delivery_time,
                     best_relay.node_id
                 )
+
                 delivered_packets += 1
+
                 total_delay += (
                     queued_packet.delay()
                 )
 
-            if not queued:
-                continue
-
-            waiting_time = (
-                time_step - arrival_time
-            )
-
-            forwarding_delay = (
-                1 + waiting_time
-            )
-
-            delivery_time = (
-                time_step + forwarding_delay
-            )
-
-            queued_packet.deliver(
-                delivery_time,
-                best_relay.node_id
-            )
-
-            delivered_packets += 1
-
-            total_delay += (
-                queued_packet.delay()
+            # Add the current packet to the queue
+            # for future processing.
+            queued = relay_queue.enqueue(
+                packet,
+                time_step
             )
 
     lost_packets = (
@@ -305,6 +280,33 @@ def main():
             f"PDR={result['pdr']:.2%} "
             f"Loss={result['loss_ratio']:.2%} "
             f"Delay={result['average_delay']:.2f}"
+        )
+
+        with open(
+            "results/scenario_results.csv",
+            "w",
+            newline=""
+        ) as file:
+
+            writer = csv.DictWriter(
+                file,
+                fieldnames=[
+                    "scenario",
+                    "packets",
+                    "delivered",
+                    "lost",
+                    "pdr",
+                    "loss_ratio",
+                    "average_delay"
+                ]
+            )
+
+            writer.writeheader()
+            writer.writerows(results)
+
+        print(
+            "\nScenario results saved to "
+            "results/scenario_results.csv"
         )
 
 
