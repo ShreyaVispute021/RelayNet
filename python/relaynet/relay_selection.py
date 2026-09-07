@@ -64,6 +64,66 @@ def select_best_relay(relays):
     return best_relay, best_score
 
 
+def relay_to_context_state(relay):
+    """Convert a live relay object into the state schema used by the KG."""
+
+    return {
+        "relay_id": relay.node_id,
+        "rssi": relay.rssi,
+        "battery": relay.battery,
+        "queue_length": relay.queue_length,
+        "mobility": relay.mobility,
+        "link_stability": relay.link_stability,
+        "hop_count": relay.hop_count,
+    }
+
+
+def select_contextual_relay(relays, reasoner=None):
+    """Select a live relay using the KG contextual reasoning rules.
+
+    The live network attributes are represented with the same state schema
+    stored in the temporal Knowledge Graph.  Relays are then classified as
+    PREFER, CAUTION, or AVOID and ranked by contextual score.
+
+    Returns:
+        relay, contextual_score, analysis
+    """
+
+    if reasoner is None:
+        from python.relaynet.contextual_reasoner import ContextualReasoner
+
+        reasoner = ContextualReasoner()
+
+    available_relays = {
+        relay.node_id: relay
+        for relay in relays
+        if relay.is_available()
+    }
+
+    if not available_relays:
+        return None, 0.0, None
+
+    states = [
+        relay_to_context_state(relay)
+        for relay in available_relays.values()
+    ]
+    ranking = reasoner.rank_relays(states)
+
+    for analysis in ranking:
+        if analysis["recommendation"] == "AVOID":
+            continue
+
+        relay = available_relays[analysis["relay_id"]]
+        return relay, analysis["contextual_score"], analysis
+
+    # Emergency fallback: when every operational relay is degraded, use the
+    # highest-ranked AVOID relay rather than dropping the packet immediately.
+    # The warning remains available in the returned analysis.
+    fallback = ranking[0]
+    relay = available_relays[fallback["relay_id"]]
+    return relay, fallback["contextual_score"], fallback
+
+
 def select_relay_from_kg(relays, kg_graph, time_step):
     """
     Select an available relay using the Knowledge Graph.

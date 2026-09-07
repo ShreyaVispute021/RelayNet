@@ -2,7 +2,11 @@ import random
 import csv
 from python.relaynet.scenarios import SCENARIOS
 from python.relaynet.traffic import TrafficGenerator
-from python.relaynet.relay_selection import select_best_relay
+from python.relaynet.relay_selection import (
+    select_best_relay,
+    select_contextual_relay,
+)
+from python.relaynet.contextual_reasoner import ContextualReasoner
 from python.relaynet.mobility import calculate_rssi, move_node
 from python.relaynet.delivery import (
     calculate_delivery_probability,
@@ -108,10 +112,14 @@ def update_network(
 
 def run_scenario(
     scenario,
-    total_packets=1000
+    total_packets=1000,
+    selection_method="baseline",
+    learner=None,
+    training=False,
+    seed=42,
 ):
 
-    random.seed(42)
+    random.seed(seed)
 
     network = create_network()
 
@@ -128,9 +136,14 @@ def run_scenario(
     }
 
     traffic = TrafficGenerator()
+    reasoner = ContextualReasoner()
 
     delivered_packets = 0
     total_delay = 0
+    relay_selections = {
+        relay.node_id: 0
+        for relay in relays
+    }
 
     for time_step in range(total_packets):
 
@@ -147,12 +160,36 @@ def run_scenario(
             time_step=time_step
         )
 
-        best_relay, best_score = select_best_relay(
-            relays
-        )
+        if selection_method == "baseline":
+            best_relay, best_score = select_best_relay(relays)
+        elif selection_method == "contextual_kg":
+            best_relay, best_score, _ = select_contextual_relay(
+                relays,
+                reasoner,
+            )
+            learning_state = None
+        elif selection_method == "kg_marl":
+            if learner is None:
+                raise ValueError("kg_marl requires a learner")
+            (
+                best_relay,
+                best_score,
+                _,
+                learning_state,
+            ) = learner.select_relay(
+                relays,
+                reasoner,
+                training=training,
+            )
+        else:
+            raise ValueError(
+                f"Unknown selection method: {selection_method}"
+            )
 
         if best_relay is None:
             continue
+
+        relay_selections[best_relay.node_id] += 1
 
         relay_queue = relay_queues[
             best_relay.node_id
@@ -162,9 +199,27 @@ def run_scenario(
             best_relay
         )
 
+        queue_was_full = relay_queue.is_full()
+
+        if selection_method == "kg_marl" and training:
+            # Emergency delivery is the primary objective. A successful
+            # transmission therefore receives a larger positive reward than
+            # the penalty for one stochastic failure.
+            reward = 4.0 if success and not queue_was_full else -1.0
+            reward += 0.40 * best_relay.link_stability
+            reward += 0.25 * (best_relay.battery / 100)
+            reward -= 0.50 * (best_relay.queue_length / 20)
+            next_state = learner.encode_state(best_relay)
+            learner.update(
+                best_relay.node_id,
+                learning_state,
+                reward,
+                next_state,
+            )
+
         if success:
 
-            if relay_queue.is_full():
+            if queue_was_full:
                 continue
 
             # Process a packet that was already waiting
@@ -223,12 +278,14 @@ def run_scenario(
 
     return {
         "scenario": scenario.name,
+        "selection_method": selection_method,
         "packets": total_packets,
         "delivered": delivered_packets,
         "lost": lost_packets,
         "pdr": pdr,
         "loss_ratio": loss_ratio,
         "average_delay": average_delay,
+        "relay_selections": relay_selections,
     }
 
 
@@ -282,32 +339,33 @@ def main():
             f"Delay={result['average_delay']:.2f}"
         )
 
-        with open(
-            "results/scenario_results.csv",
-            "w",
-            newline=""
-        ) as file:
+    output_rows = [
+        {
+            key: value
+            for key, value in result.items()
+            if key != "relay_selections"
+        }
+        for result in results
+    ]
 
-            writer = csv.DictWriter(
-                file,
-                fieldnames=[
-                    "scenario",
-                    "packets",
-                    "delivered",
-                    "lost",
-                    "pdr",
-                    "loss_ratio",
-                    "average_delay"
-                ]
-            )
+    with open(
+        "results/scenario_results.csv",
+        "w",
+        newline=""
+    ) as file:
 
-            writer.writeheader()
-            writer.writerows(results)
-
-        print(
-            "\nScenario results saved to "
-            "results/scenario_results.csv"
+        writer = csv.DictWriter(
+            file,
+            fieldnames=output_rows[0].keys()
         )
+
+        writer.writeheader()
+        writer.writerows(output_rows)
+
+    print(
+        "\nScenario results saved to "
+        "results/scenario_results.csv"
+    )
 
 
 if __name__ == "__main__":
