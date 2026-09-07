@@ -64,6 +64,20 @@ def select_best_relay(relays):
     return best_relay, best_score
 
 
+def select_static_relay(relays):
+    """Traditional fixed hop-count baseline without context or learning."""
+
+    available_relays = [relay for relay in relays if relay.is_available()]
+    if not available_relays:
+        return None, 0.0
+
+    relay = min(
+        available_relays,
+        key=lambda item: (item.hop_count, item.node_id),
+    )
+    return relay, 1.0 / max(relay.hop_count, 1)
+
+
 def relay_to_context_state(relay):
     """Convert a live relay object into the state schema used by the KG."""
 

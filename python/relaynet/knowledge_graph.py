@@ -79,6 +79,18 @@ class RelayKnowledgeGraph:
         )
 
         self.add_triple(
+            relay,
+            "HAS_PLATFORM",
+            row.get("platform", "UAV")
+        )
+
+        self.add_triple(
+            state,
+            "HAS_ALTITUDE",
+            float(row.get("altitude", 0.0))
+        )
+
+        self.add_triple(
             state,
             "HAS_SCORE",
             float(row["score"])

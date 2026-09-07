@@ -5,6 +5,7 @@ from python.relaynet.traffic import TrafficGenerator
 from python.relaynet.relay_selection import (
     select_best_relay,
     select_contextual_relay,
+    select_static_relay,
 )
 from python.relaynet.contextual_reasoner import ContextualReasoner
 from python.relaynet.mobility import calculate_rssi, move_node
@@ -129,6 +130,7 @@ def run_scenario(
     )
 
     relays = network.get_relays()
+    initial_total_battery = sum(relay.battery for relay in relays)
 
     relay_queues = {
         relay.node_id: RelayQueue(capacity=20)
@@ -140,6 +142,8 @@ def run_scenario(
 
     delivered_packets = 0
     total_delay = 0
+    delivered_bytes = 0
+    network_lifetime_steps = 0
     relay_selections = {
         relay.node_id: 0
         for relay in relays
@@ -160,7 +164,12 @@ def run_scenario(
             time_step=time_step
         )
 
-        if selection_method == "baseline":
+        if any(relay.is_available() for relay in relays):
+            network_lifetime_steps = time_step + 1
+
+        if selection_method == "static":
+            best_relay, best_score = select_static_relay(relays)
+        elif selection_method == "baseline":
             best_relay, best_score = select_best_relay(relays)
         elif selection_method == "contextual_kg":
             best_relay, best_score, _ = select_contextual_relay(
@@ -190,6 +199,12 @@ def run_scenario(
             continue
 
         relay_selections[best_relay.node_id] += 1
+
+        transmission_energy = 0.03 + 0.0001 * best_relay.altitude
+        best_relay.battery = max(
+            0.0,
+            best_relay.battery - transmission_energy,
+        )
 
         relay_queue = relay_queues[
             best_relay.node_id
@@ -246,6 +261,7 @@ def run_scenario(
                 )
 
                 delivered_packets += 1
+                delivered_bytes += queued_packet.size_bytes
 
                 total_delay += (
                     queued_packet.delay()
@@ -276,6 +292,13 @@ def run_scenario(
         else 0
     )
 
+    energy_consumed = initial_total_battery - sum(
+        relay.battery for relay in relays
+    )
+    throughput_kbps = (
+        delivered_bytes * 8 / max(total_packets, 1) / 1000
+    )
+
     return {
         "scenario": scenario.name,
         "selection_method": selection_method,
@@ -285,6 +308,9 @@ def run_scenario(
         "pdr": pdr,
         "loss_ratio": loss_ratio,
         "average_delay": average_delay,
+        "throughput_kbps": throughput_kbps,
+        "energy_consumed": energy_consumed,
+        "network_lifetime_steps": network_lifetime_steps,
         "relay_selections": relay_selections,
     }
 

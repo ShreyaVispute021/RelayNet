@@ -31,7 +31,12 @@ def train_agents(episodes=60, packets_per_episode=250):
 def evaluate(learner, total_packets=1000):
     results = []
     for scenario in SCENARIOS:
-        for method in ("baseline", "contextual_kg", "kg_marl"):
+        for method in (
+            "static",
+            "baseline",
+            "contextual_kg",
+            "kg_marl",
+        ):
             result = run_scenario(
                 scenario,
                 total_packets=total_packets,
@@ -86,7 +91,10 @@ def main():
             f"{result['selection_method']:14s} "
             f"PDR={result['pdr']:.2%} "
             f"Loss={result['loss_ratio']:.2%} "
-            f"Delay={result['average_delay']:.2f}"
+            f"Delay={result['average_delay']:.2f} "
+            f"Throughput={result['throughput_kbps']:.3f}kbps "
+            f"Energy={result['energy_consumed']:.2f} "
+            f"Lifetime={result['network_lifetime_steps']}"
         )
 
     print(f"\nResults saved to {RESULTS_PATH}")

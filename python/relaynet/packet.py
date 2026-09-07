@@ -10,6 +10,7 @@ class Packet:
     delivery_time: int | None = None
     delivered: bool = False
     relay_id: str | None = None
+    size_bytes: int = 512
 
     def deliver(self, time_step, relay_id):
         self.delivery_time = time_step

@@ -170,6 +170,9 @@ class KnowledgeGraphQuery:
                     "hop_count": int(
                         state["HAS_HOP_COUNT"]
                     ),
+                    "altitude": float(
+                        state.get("HAS_ALTITUDE", 0.0)
+                    ),
                     "score": float(
                         state["HAS_SCORE"]
                     ),

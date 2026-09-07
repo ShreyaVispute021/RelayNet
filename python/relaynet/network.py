@@ -13,6 +13,8 @@ class Node:
     mobility: float
     link_stability: float
     hop_count: int
+    platform: str = "GROUND"
+    altitude: float = 0.0
 
     def display(self):
         print(f"Node: {self.node_id}")
@@ -24,6 +26,8 @@ class Node:
         print(f"  Mobility: {self.mobility:.2f}")
         print(f"  Link Stability: {self.link_stability:.2f}")
         print(f"  Hop Count: {self.hop_count}")
+        print(f"  Platform: {self.platform}")
+        print(f"  Altitude: {self.altitude:.2f} m")
         print()
 
     def is_available(self):

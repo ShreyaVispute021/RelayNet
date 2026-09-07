@@ -30,6 +30,8 @@ class DataLogger:
             "mobility",
             "link_stability",
             "hop_count",
+            "platform",
+            "altitude",
             "score",
             "selected",
             "available"
@@ -52,6 +54,8 @@ class DataLogger:
             relay.mobility,
             relay.link_stability,
             relay.hop_count,
+            relay.platform,
+            relay.altitude,
             round(score, 4),
             selected,
             relay.is_available()

@@ -112,7 +112,9 @@ def create_network():
         queue_length=5,
         mobility=0.3,
         link_stability=0.85,
-        hop_count=2
+        hop_count=2,
+        platform="UAV",
+        altitude=80.0
     )
 
     relay2 = Node(
@@ -125,7 +127,9 @@ def create_network():
         queue_length=2,
         mobility=0.2,
         link_stability=0.92,
-        hop_count=2
+        hop_count=2,
+        platform="UAV",
+        altitude=100.0
     )
 
     relay3 = Node(
@@ -138,7 +142,9 @@ def create_network():
         queue_length=8,
         mobility=0.6,
         link_stability=0.70,
-        hop_count=3
+        hop_count=3,
+        platform="UAV",
+        altitude=120.0
     )
 
     network.add_node(source)
