@@ -62,3 +62,35 @@ def select_best_relay(relays):
     )
 
     return best_relay, best_score
+
+
+def select_relay_from_kg(relays, kg_graph, time_step):
+    """
+    Select an available relay using the Knowledge Graph.
+
+    The KG provides the temporal relay ranking, while the
+    current network objects are used to ensure that the
+    selected relay is currently available.
+    """
+
+    available_relays = {
+        relay.node_id: relay
+        for relay in relays
+        if relay.is_available()
+    }
+
+    if not available_relays:
+        return None, 0.0
+
+    ranking = kg_graph.get_relay_ranking(time_step)
+
+    for kg_relay in ranking:
+        relay_id = kg_relay["relay_id"]
+
+        if relay_id in available_relays:
+            relay = available_relays[relay_id]
+            kg_score = kg_relay["score"]
+
+            return relay, kg_score
+
+    return None, 0.0
