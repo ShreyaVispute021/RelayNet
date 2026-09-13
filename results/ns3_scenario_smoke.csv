@@ -1,0 +1,4 @@
+protocol,scenario,seed,run,nodes,max_speed_mps,offered_rate,offered_packets,source_tx_packets,rx_packets,pdr_percent,loss_ratio_percent,average_delay_ms,average_jitter_ms,throughput_kbps
+AODV,high_mobility,42,1,20,20.000,64kbps,5061,5061,440,8.694,91.306,429.821,35.309,15.744
+AODV,high_congestion,42,1,20,5.000,256kbps,20249,20248,1949,9.625,90.375,0.441,0.139,69.739
+AODV,relay_failure,42,1,20,5.000,64kbps,5061,5061,484,9.563,90.437,0.474,0.267,17.318

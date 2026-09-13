@@ -1,0 +1,7 @@
+protocol,scenario,seed,run,nodes,max_speed_mps,offered_rate,tx_packets,rx_packets,pdr_percent,loss_ratio_percent,average_delay_ms,average_jitter_ms,throughput_kbps
+AODV,normal,42,1,20,5.000,64kbps,5061,484,9.563,90.437,0.474,0.267,19.008
+OLSR,normal,42,1,20,5.000,64kbps,748,369,49.332,50.668,0.536,0.395,14.492
+DSR,normal,42,1,20,5.000,64kbps,0,0,0.000,0.000,0.000,0.000,0.000
+DSR,normal,42,1,20,5.000,64kbps,5061,474,9.366,90.634,315.617,126.539,16.961
+AODV,normal,42,1,20,5.000,64kbps,5061,484,9.563,90.437,0.474,0.267,17.318
+OLSR,normal,42,1,20,5.000,64kbps,748,369,49.332,50.668,2.271,2.668,13.203

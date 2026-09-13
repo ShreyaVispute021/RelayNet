@@ -166,7 +166,7 @@ package correctly.
 Install the dependencies and start the RelayNet Control Center:
 
 ```bash
-python -m pip install -r requirements.txt
+python -m pip install matplotlib pandas streamlit
 python -m streamlit run dashboard/app.py
 ```
 

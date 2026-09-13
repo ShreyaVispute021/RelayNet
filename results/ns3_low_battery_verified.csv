@@ -1,0 +1,2 @@
+protocol,scenario,seed,run,nodes,max_speed_mps,offered_rate,offered_packets,source_tx_packets,rx_packets,pdr_percent,loss_ratio_percent,average_delay_ms,average_jitter_ms,throughput_kbps,energy_consumed_j,network_lifetime_s
+AODV,low_battery,42,1,20,5.000,64kbps,5061,5061,484,9.563,90.437,0.474,0.267,17.318,901.368,120.000
