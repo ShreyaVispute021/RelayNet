@@ -18,7 +18,7 @@ conditions change.
 
 > **Project status:** the proposed information flow is implemented and tested
 > in a custom Python simulator. Physical devices, real UAVs, NS-3, and deep
-> MARL are future extensionsâ€”not features of the current prototype.
+> MARL are future extensions—not features of the current prototype.
 
 ## Why RelayNet?
 
@@ -41,15 +41,19 @@ hop count alone.
 ## Implemented features
 
 - Simulated source, destination, and three UAV relay agents
+- Explicit MANET topology with range-based neighbour discovery, dynamic
+  wireless links, link costs, and Dijkstra multi-hop route discovery
 - Dynamic RSSI, battery, queue length, mobility, link stability, hop count,
   UAV platform, and altitude
 - Packet generation, queueing, forwarding, probabilistic delivery, and energy
   consumption
 - Temporal subject-predicate-object Knowledge Graph exported to CSV
+- Temporal KG simulation graph at T0, T5, and T10
 - Explainable relay recommendations: `PREFER`, `CAUTION`, and `AVOID`
 - Human-readable reasons such as low battery, high congestion, weak RSSI, or
   poor link stability
 - Independent Q-learning agents with KG-assisted relay selection
+- Exported RL hyperparameters and per-episode learning metrics
 - Five disaster-network scenarios and four routing strategies
 - Single-seed and ten-seed evaluations with CSV results and comparison charts
 
@@ -112,15 +116,15 @@ lifetime.
 
 ```text
 RelayNet/
-â”œâ”€â”€ data/
-â”‚   â””â”€â”€ relaynet_simulation.csv
-â”œâ”€â”€ docs/
-â”‚   â””â”€â”€ evaluation_summary.md
-â”œâ”€â”€ python/
-â”‚   â”œâ”€â”€ experiments/          # Scenario, KG, MARL, and multi-seed runs
-â”‚   â””â”€â”€ relaynet/             # Network, routing, KG, and learning modules
-â”œâ”€â”€ results/                  # Generated CSV files, Q-tables, and charts
-â””â”€â”€ README.md
+├── data/
+│   └── relaynet_simulation.csv
+├── docs/
+│   └── evaluation_summary.md
+├── python/
+│   ├── experiments/          # Scenario, KG, MARL, and multi-seed runs
+│   └── relaynet/             # Network, routing, KG, and learning modules
+├── results/                  # Generated CSV files, Q-tables, and charts
+└── README.md
 ```
 
 ## Installation
@@ -157,25 +161,44 @@ On PowerShell, activate the environment with:
 Run commands from the repository root so Python can resolve the `python`
 package correctly.
 
+### Launch the integrated dashboard
+
+Install the dependencies and start the RelayNet Control Center:
+
+```bash
+python -m pip install -r requirements.txt
+python -m streamlit run dashboard/app.py
+```
+
+The dashboard combines scenario controls, MANET topology, KG reasoning,
+Q-learning parameters and training progress, multi-seed metrics, downloadable
+results, and buttons for running the verified experiment modules.
+
 ### Recommended demonstration
 
 ```bash
 # 1. Generate live relay-state observations
 python -m python.experiments.dynamic_scenario
 
-# 2. Construct and export the temporal Knowledge Graph
+# 2. Demonstrate MANET neighbour discovery and multi-hop routing
+python -m python.experiments.manet_simulation
+
+# 3. Construct and export the temporal Knowledge Graph
 python -m python.relaynet.knowledge_graph
 
-# 3. Show contextual recommendations and explanations
+# 4. Generate the temporal KG simulation graph
+python -m python.experiments.visualize_knowledge_graph
+
+# 5. Show contextual recommendations and explanations
 python -m python.experiments.kg_contextual_reasoning
 
-# 4. Verify KG-assisted selection against live relay objects
+# 6. Verify KG-assisted selection against live relay objects
 python -m python.experiments.kg_integration_test
 
-# 5. Train the relay agents and compare all four methods
+# 7. Train agents; export parameters, metrics, Q-tables, and graphs
 python -m python.experiments.kg_marl_experiment
 
-# 6. Run the final ten-seed evaluation and generate charts
+# 8. Run the final ten-seed evaluation and generate charts
 python -m python.experiments.multi_seed_evaluation
 ```
 
@@ -189,10 +212,10 @@ python -m python.experiments.contextual_routing_comparison
 
 The final experiment trains independent Q-learning agents for 60 episodes
 across all five scenarios, then evaluates every method using ten random seeds
-(40â€“49). This produces 200 evaluation runs:
+(40–49). This produces 200 evaluation runs:
 
 ```text
-5 scenarios Ã— 4 routing methods Ã— 10 seeds = 200 runs
+5 scenarios × 4 routing methods × 10 seeds = 200 runs
 ```
 
 ### Preliminary ten-seed results: high mobility
@@ -223,8 +246,14 @@ CSV files.
 | Output | Purpose |
 |---|---|
 | `data/relaynet_simulation.csv` | Time-varying relay observations |
+| `results/manet_routing_log.csv` | Dynamic links, routes, hop counts, and costs |
+| `results/manet_topology.png` | MANET snapshots with discovered routes |
 | `results/relaynet_knowledge_graph.csv` | Temporal KG triples and derived reasoning |
+| `results/kg_simulation_graph.png` | Visual KG snapshots at T0, T5, and T10 |
 | `results/marl_q_tables.csv` | Learned per-relay Q-table entries |
+| `results/rl_parameters.json` | Exact Q-learning, exploration, and reward parameters |
+| `results/rl_training_metrics.csv` | Reward, delivery rate, TD error, epsilon, and table growth |
+| `results/rl_training_progress.png` | Four-panel RL learning-progress graph |
 | `results/kg_marl_comparison.csv` | Same-seed comparison of all routing methods |
 | `results/multi_seed_detailed.csv` | Results for every seed, scenario, and method |
 | `results/multi_seed_summary.csv` | Mean and standard deviation for all metrics |
@@ -235,11 +264,13 @@ CSV files.
 ### Completed in the prototype
 
 - End-to-end custom Python network simulation
+- Range-based MANET topology and multi-hop route discovery
 - Dynamic relay state collection and synthetic dataset generation
 - Weighted, contextual KG, and KG + MARL relay selection
 - Explainable KG recommendations and temporal triple export
 - Scenario-based packet, delay, throughput, energy, and lifetime evaluation
 - Reproducible ten-seed comparison and result visualization
+- RL hyperparameter, reward, exploration, and learning-metric reporting
 
 ### Planned extensions
 
