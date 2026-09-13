@@ -148,6 +148,9 @@ def run_scenario(
         relay.node_id: 0
         for relay in relays
     }
+    training_reward = 0.0
+    training_updates = 0
+    td_error_sum = 0.0
 
     for time_step in range(total_packets):
 
@@ -220,17 +223,25 @@ def run_scenario(
             # Emergency delivery is the primary objective. A successful
             # transmission therefore receives a larger positive reward than
             # the penalty for one stochastic failure.
-            reward = 4.0 if success and not queue_was_full else -1.0
-            reward += 0.40 * best_relay.link_stability
-            reward += 0.25 * (best_relay.battery / 100)
-            reward -= 0.50 * (best_relay.queue_length / 20)
+            config = learner.config
+            reward = (
+                config.reward_success
+                if success and not queue_was_full
+                else config.reward_failure
+            )
+            reward += config.stability_reward_weight * best_relay.link_stability
+            reward += config.battery_reward_weight * (best_relay.battery / 100)
+            reward -= config.queue_penalty_weight * (best_relay.queue_length / 20)
             next_state = learner.encode_state(best_relay)
-            learner.update(
+            td_error = learner.update(
                 best_relay.node_id,
                 learning_state,
                 reward,
                 next_state,
             )
+            training_reward += reward
+            training_updates += 1
+            td_error_sum += td_error
 
         if success:
 
@@ -312,6 +323,11 @@ def run_scenario(
         "energy_consumed": energy_consumed,
         "network_lifetime_steps": network_lifetime_steps,
         "relay_selections": relay_selections,
+        "training_reward": training_reward,
+        "training_updates": training_updates,
+        "mean_abs_td_error": (
+            td_error_sum / training_updates if training_updates else 0.0
+        ),
     }
 
 

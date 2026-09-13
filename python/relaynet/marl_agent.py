@@ -2,6 +2,8 @@ from collections import defaultdict
 import math
 import random
 
+from python.relaynet.rl_config import RLConfig
+
 
 class MultiAgentRelayLearner:
     """Independent Q-learning agents for KG-assisted UAV relay selection.
@@ -15,18 +17,22 @@ class MultiAgentRelayLearner:
 
     def __init__(
         self,
-        alpha=0.15,
-        gamma=0.90,
-        epsilon=0.20,
-        kg_weight=0.65,
-        seed=42,
+        alpha=None,
+        gamma=None,
+        epsilon=None,
+        kg_weight=None,
+        seed=None,
+        config=None,
     ):
-        self.alpha = alpha
-        self.gamma = gamma
-        self.epsilon = epsilon
-        self.kg_weight = kg_weight
+        self.config = config or RLConfig()
+        self.alpha = self.config.learning_rate if alpha is None else alpha
+        self.gamma = self.config.discount_factor if gamma is None else gamma
+        self.epsilon = self.config.epsilon_start if epsilon is None else epsilon
+        self.kg_weight = self.config.kg_weight if kg_weight is None else kg_weight
         self.q_tables = defaultdict(lambda: defaultdict(float))
-        self.random = random.Random(seed)
+        self.random = random.Random(
+            self.config.random_seed if seed is None else seed
+        )
 
     @staticmethod
     def _level(value, low, high):
@@ -80,11 +86,13 @@ class MultiAgentRelayLearner:
         current_q = self.q_tables[relay_id][state]
         next_q = self.q_tables[relay_id][next_state]
         target = reward + self.gamma * next_q
-        self.q_tables[relay_id][state] = current_q + self.alpha * (
-            target - current_q
-        )
+        td_error = target - current_q
+        self.q_tables[relay_id][state] = current_q + self.alpha * td_error
+        return abs(td_error)
 
-    def decay_exploration(self, factor=0.97, minimum=0.02):
+    def decay_exploration(self, factor=None, minimum=None):
+        factor = self.config.epsilon_decay if factor is None else factor
+        minimum = self.config.epsilon_min if minimum is None else minimum
         self.epsilon = max(minimum, self.epsilon * factor)
 
     def q_table_size(self):
