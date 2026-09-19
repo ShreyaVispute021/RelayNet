@@ -47,9 +47,8 @@ TraceRemainingEnergy(double oldValue, double newValue)
 }
 
 void
-HandleRadioDepletion(Ptr<WifiPhy> phy)
+HandleRadioDepletion()
 {
-    phy->SetOffMode();
     if (g_firstNodeDeathSeconds < 0.0)
     {
         g_firstNodeDeathSeconds = Simulator::Now().GetSeconds();
@@ -295,12 +294,10 @@ main(int argc, char* argv[])
 
     for (uint32_t index = 0; index < nodeCount; ++index)
     {
-        Ptr<WifiNetDevice> wifiDevice = DynamicCast<WifiNetDevice>(devices.Get(index));
         WifiRadioEnergyModelHelper radioEnergy;
         radioEnergy.Set("TxCurrentA", DoubleValue(0.280));
         radioEnergy.Set("RxCurrentA", DoubleValue(0.313));
-        radioEnergy.SetDepletionCallback(
-            MakeBoundCallback(&HandleRadioDepletion, wifiDevice->GetPhy()));
+        radioEnergy.SetDepletionCallback(MakeCallback(&HandleRadioDepletion));
         radioEnergy.Install(devices.Get(index), energySources.Get(index));
     }
 

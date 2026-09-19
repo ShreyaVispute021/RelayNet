@@ -1,0 +1,2432 @@
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: normal | Seed: 42 | Run: 1
+Offered: 5061 | Source TX accepted: 5061 | RX: 484 | Lost: 4577
+PDR: 9.563% | Loss: 90.437% | Delay: 0.474 ms | Jitter: 0.267 ms | Throughput: 17.318 kbps
+Energy consumed: 1965.829 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: normal | Seed: 42 | Run: 2
+Offered: 5061 | Source TX accepted: 5061 | RX: 1016 | Lost: 4045
+PDR: 20.075% | Loss: 79.925% | Delay: 8.506 ms | Jitter: 4.366 ms | Throughput: 36.354 kbps
+Energy consumed: 1965.973 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: normal | Seed: 42 | Run: 3
+Offered: 5061 | Source TX accepted: 5061 | RX: 32 | Lost: 5029
+PDR: 0.632% | Loss: 99.368% | Delay: 375.488 ms | Jitter: 139.996 ms | Throughput: 1.145 kbps
+Energy consumed: 1965.824 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: normal | Seed: 42 | Run: 4
+Offered: 5061 | Source TX accepted: 5061 | RX: 495 | Lost: 4566
+PDR: 9.781% | Loss: 90.219% | Delay: 7.231 ms | Jitter: 2.502 ms | Throughput: 17.712 kbps
+Energy consumed: 1965.834 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: normal | Seed: 42 | Run: 5
+Offered: 5061 | Source TX accepted: 5061 | RX: 457 | Lost: 4604
+PDR: 9.030% | Loss: 90.970% | Delay: 6.173 ms | Jitter: 5.243 ms | Throughput: 16.352 kbps
+Energy consumed: 1965.933 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: normal | Seed: 42 | Run: 6
+Offered: 5061 | Source TX accepted: 5061 | RX: 1607 | Lost: 3454
+PDR: 31.753% | Loss: 68.247% | Delay: 216.870 ms | Jitter: 15.952 ms | Throughput: 57.501 kbps
+Energy consumed: 1966.075 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: normal | Seed: 42 | Run: 7
+Offered: 5061 | Source TX accepted: 5061 | RX: 1065 | Lost: 3996
+PDR: 21.043% | Loss: 78.957% | Delay: 223.108 ms | Jitter: 14.388 ms | Throughput: 38.108 kbps
+Energy consumed: 1965.824 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: normal | Seed: 42 | Run: 8
+Offered: 5061 | Source TX accepted: 5061 | RX: 12 | Lost: 5049
+PDR: 0.237% | Loss: 99.763% | Delay: 1.866 ms | Jitter: 1.821 ms | Throughput: 0.429 kbps
+Energy consumed: 1965.836 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: normal | Seed: 42 | Run: 9
+Offered: 5061 | Source TX accepted: 5061 | RX: 0 | Lost: 5061
+PDR: 0.000% | Loss: 100.000% | Delay: 0.000 ms | Jitter: 0.000 ms | Throughput: 0.000 kbps
+Energy consumed: 1965.792 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: normal | Seed: 42 | Run: 10
+Offered: 5061 | Source TX accepted: 5061 | RX: 134 | Lost: 4927
+PDR: 2.648% | Loss: 97.352% | Delay: 15.149 ms | Jitter: 7.773 ms | Throughput: 4.795 kbps
+Energy consumed: 1965.862 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: normal | Seed: 42 | Run: 1
+Offered: 5061 | Source TX accepted: 748 | RX: 369 | Lost: 4692
+PDR: 7.291% | Loss: 92.709% | Delay: 2.271 ms | Jitter: 2.668 ms | Throughput: 13.203 kbps
+Energy consumed: 1966.929 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: normal | Seed: 42 | Run: 2
+Offered: 5061 | Source TX accepted: 881 | RX: 742 | Lost: 4319
+PDR: 14.661% | Loss: 85.339% | Delay: 0.694 ms | Jitter: 0.750 ms | Throughput: 26.550 kbps
+Energy consumed: 1966.731 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: normal | Seed: 42 | Run: 3
+Offered: 5061 | Source TX accepted: 130 | RX: 13 | Lost: 5048
+PDR: 0.257% | Loss: 99.743% | Delay: 12.603 ms | Jitter: 15.702 ms | Throughput: 0.465 kbps
+Energy consumed: 1966.415 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: normal | Seed: 42 | Run: 4
+Offered: 5061 | Source TX accepted: 514 | RX: 457 | Lost: 4604
+PDR: 9.030% | Loss: 90.970% | Delay: 0.506 ms | Jitter: 0.313 ms | Throughput: 16.352 kbps
+Energy consumed: 1966.009 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: normal | Seed: 42 | Run: 5
+Offered: 5061 | Source TX accepted: 438 | RX: 357 | Lost: 4704
+PDR: 7.054% | Loss: 92.946% | Delay: 0.853 ms | Jitter: 0.445 ms | Throughput: 12.774 kbps
+Energy consumed: 1965.868 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: normal | Seed: 42 | Run: 6
+Offered: 5061 | Source TX accepted: 1687 | RX: 993 | Lost: 4068
+PDR: 19.621% | Loss: 80.379% | Delay: 12.290 ms | Jitter: 9.584 ms | Throughput: 35.531 kbps
+Energy consumed: 1969.766 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: normal | Seed: 42 | Run: 7
+Offered: 5061 | Source TX accepted: 1064 | RX: 922 | Lost: 4139
+PDR: 18.218% | Loss: 81.782% | Delay: 0.642 ms | Jitter: 0.478 ms | Throughput: 32.991 kbps
+Energy consumed: 1965.838 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: normal | Seed: 42 | Run: 8
+Offered: 5061 | Source TX accepted: 130 | RX: 29 | Lost: 5032
+PDR: 0.573% | Loss: 99.427% | Delay: 5.594 ms | Jitter: 5.674 ms | Throughput: 1.038 kbps
+Energy consumed: 1966.187 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: normal | Seed: 42 | Run: 9
+Offered: 5061 | Source TX accepted: 0 | RX: 0 | Lost: 5061
+PDR: 0.000% | Loss: 100.000% | Delay: 0.000 ms | Jitter: 0.000 ms | Throughput: 0.000 kbps
+Energy consumed: 1965.711 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: normal | Seed: 42 | Run: 10
+Offered: 5061 | Source TX accepted: 254 | RX: 162 | Lost: 4899
+PDR: 3.201% | Loss: 96.799% | Delay: 2.341 ms | Jitter: 1.967 ms | Throughput: 5.797 kbps
+Energy consumed: 1966.234 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: normal | Seed: 42 | Run: 1
+Offered: 5061 | Source TX accepted: 5061 | RX: 474 | Lost: 4587
+PDR: 9.366% | Loss: 90.634% | Delay: 315.617 ms | Jitter: 126.539 ms | Throughput: 16.961 kbps
+Energy consumed: 1965.658 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: normal | Seed: 42 | Run: 2
+Offered: 5061 | Source TX accepted: 5061 | RX: 1065 | Lost: 3996
+PDR: 21.043% | Loss: 78.957% | Delay: 134.548 ms | Jitter: 55.982 ms | Throughput: 38.108 kbps
+Energy consumed: 1965.829 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: normal | Seed: 42 | Run: 3
+Offered: 5061 | Source TX accepted: 5061 | RX: 0 | Lost: 5061
+PDR: 0.000% | Loss: 100.000% | Delay: 0.000 ms | Jitter: 0.000 ms | Throughput: 0.000 kbps
+Energy consumed: 1965.605 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: normal | Seed: 42 | Run: 4
+Offered: 5061 | Source TX accepted: 5061 | RX: 542 | Lost: 4519
+PDR: 10.709% | Loss: 89.291% | Delay: 283.071 ms | Jitter: 111.539 ms | Throughput: 19.394 kbps
+Energy consumed: 1965.629 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: normal | Seed: 42 | Run: 5
+Offered: 5061 | Source TX accepted: 5061 | RX: 472 | Lost: 4589
+PDR: 9.326% | Loss: 90.674% | Delay: 307.076 ms | Jitter: 96.042 ms | Throughput: 16.889 kbps
+Energy consumed: 1965.664 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: normal | Seed: 42 | Run: 6
+Offered: 5061 | Source TX accepted: 5061 | RX: 1136 | Lost: 3925
+PDR: 22.446% | Loss: 77.554% | Delay: 134.302 ms | Jitter: 47.225 ms | Throughput: 40.648 kbps
+Energy consumed: 1965.840 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: normal | Seed: 42 | Run: 7
+Offered: 5061 | Source TX accepted: 5061 | RX: 810 | Lost: 4251
+PDR: 16.005% | Loss: 83.995% | Delay: 186.092 ms | Jitter: 67.367 ms | Throughput: 28.983 kbps
+Energy consumed: 1965.632 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: normal | Seed: 42 | Run: 8
+Offered: 5061 | Source TX accepted: 5061 | RX: 0 | Lost: 5061
+PDR: 0.000% | Loss: 100.000% | Delay: 0.000 ms | Jitter: 0.000 ms | Throughput: 0.000 kbps
+Energy consumed: 1965.606 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: normal | Seed: 42 | Run: 9
+Offered: 5061 | Source TX accepted: 5061 | RX: 0 | Lost: 5061
+PDR: 0.000% | Loss: 100.000% | Delay: 0.000 ms | Jitter: 0.000 ms | Throughput: 0.000 kbps
+Energy consumed: 1965.604 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: normal | Seed: 42 | Run: 10
+Offered: 5061 | Source TX accepted: 5061 | RX: 150 | Lost: 4911
+PDR: 2.964% | Loss: 97.036% | Delay: 981.652 ms | Jitter: 379.857 ms | Throughput: 5.367 kbps
+Energy consumed: 1965.643 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: high_mobility | Seed: 42 | Run: 1
+Offered: 5061 | Source TX accepted: 5061 | RX: 440 | Lost: 4621
+PDR: 8.694% | Loss: 91.306% | Delay: 429.821 ms | Jitter: 35.309 ms | Throughput: 15.744 kbps
+Energy consumed: 1966.010 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: high_mobility | Seed: 42 | Run: 2
+Offered: 5061 | Source TX accepted: 5061 | RX: 711 | Lost: 4350
+PDR: 14.049% | Loss: 85.951% | Delay: 366.080 ms | Jitter: 41.204 ms | Throughput: 25.441 kbps
+Energy consumed: 1966.649 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: high_mobility | Seed: 42 | Run: 3
+Offered: 5061 | Source TX accepted: 5061 | RX: 338 | Lost: 4723
+PDR: 6.679% | Loss: 93.321% | Delay: 0.490 ms | Jitter: 0.339 ms | Throughput: 12.094 kbps
+Energy consumed: 1965.883 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: high_mobility | Seed: 42 | Run: 4
+Offered: 5061 | Source TX accepted: 5061 | RX: 195 | Lost: 4866
+PDR: 3.853% | Loss: 96.147% | Delay: 1133.441 ms | Jitter: 56.909 ms | Throughput: 6.977 kbps
+Energy consumed: 1965.804 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: high_mobility | Seed: 42 | Run: 5
+Offered: 5061 | Source TX accepted: 5061 | RX: 175 | Lost: 4886
+PDR: 3.458% | Loss: 96.542% | Delay: 864.975 ms | Jitter: 55.391 ms | Throughput: 6.262 kbps
+Energy consumed: 1966.063 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: high_mobility | Seed: 42 | Run: 6
+Offered: 5061 | Source TX accepted: 5061 | RX: 729 | Lost: 4332
+PDR: 14.404% | Loss: 85.596% | Delay: 377.040 ms | Jitter: 30.851 ms | Throughput: 26.085 kbps
+Energy consumed: 1966.211 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: high_mobility | Seed: 42 | Run: 7
+Offered: 5061 | Source TX accepted: 5061 | RX: 409 | Lost: 4652
+PDR: 8.081% | Loss: 91.919% | Delay: 736.348 ms | Jitter: 54.382 ms | Throughput: 14.635 kbps
+Energy consumed: 1965.837 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: high_mobility | Seed: 42 | Run: 8
+Offered: 5061 | Source TX accepted: 5061 | RX: 407 | Lost: 4654
+PDR: 8.042% | Loss: 91.958% | Delay: 18.002 ms | Jitter: 11.804 ms | Throughput: 14.563 kbps
+Energy consumed: 1966.125 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: high_mobility | Seed: 42 | Run: 9
+Offered: 5061 | Source TX accepted: 5061 | RX: 332 | Lost: 4729
+PDR: 6.560% | Loss: 93.440% | Delay: 1386.698 ms | Jitter: 93.244 ms | Throughput: 11.880 kbps
+Energy consumed: 1965.865 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: high_mobility | Seed: 42 | Run: 10
+Offered: 5061 | Source TX accepted: 5061 | RX: 236 | Lost: 4825
+PDR: 4.663% | Loss: 95.337% | Delay: 670.696 ms | Jitter: 46.835 ms | Throughput: 8.445 kbps
+Energy consumed: 1965.821 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: high_mobility | Seed: 42 | Run: 1
+Offered: 5061 | Source TX accepted: 604 | RX: 161 | Lost: 4900
+PDR: 3.181% | Loss: 96.819% | Delay: 2.270 ms | Jitter: 2.411 ms | Throughput: 5.761 kbps
+Energy consumed: 1966.441 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: high_mobility | Seed: 42 | Run: 2
+Offered: 5061 | Source TX accepted: 837 | RX: 457 | Lost: 4604
+PDR: 9.030% | Loss: 90.970% | Delay: 2.430 ms | Jitter: 3.121 ms | Throughput: 16.352 kbps
+Energy consumed: 1966.748 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: high_mobility | Seed: 42 | Run: 3
+Offered: 5061 | Source TX accepted: 602 | RX: 238 | Lost: 4823
+PDR: 4.703% | Loss: 95.297% | Delay: 1.579 ms | Jitter: 1.555 ms | Throughput: 8.516 kbps
+Energy consumed: 1966.199 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: high_mobility | Seed: 42 | Run: 4
+Offered: 5061 | Source TX accepted: 184 | RX: 95 | Lost: 4966
+PDR: 1.877% | Loss: 98.123% | Delay: 3.287 ms | Jitter: 3.038 ms | Throughput: 3.399 kbps
+Energy consumed: 1966.008 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: high_mobility | Seed: 42 | Run: 5
+Offered: 5061 | Source TX accepted: 255 | RX: 70 | Lost: 4991
+PDR: 1.383% | Loss: 98.617% | Delay: 3.512 ms | Jitter: 3.350 ms | Throughput: 2.505 kbps
+Energy consumed: 1966.380 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: high_mobility | Seed: 42 | Run: 6
+Offered: 5061 | Source TX accepted: 950 | RX: 462 | Lost: 4599
+PDR: 9.129% | Loss: 90.871% | Delay: 2.973 ms | Jitter: 4.806 ms | Throughput: 16.531 kbps
+Energy consumed: 1968.923 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: high_mobility | Seed: 42 | Run: 7
+Offered: 5061 | Source TX accepted: 374 | RX: 213 | Lost: 4848
+PDR: 4.209% | Loss: 95.791% | Delay: 2.132 ms | Jitter: 1.980 ms | Throughput: 7.622 kbps
+Energy consumed: 1966.402 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: high_mobility | Seed: 42 | Run: 8
+Offered: 5061 | Source TX accepted: 530 | RX: 271 | Lost: 4790
+PDR: 5.355% | Loss: 94.645% | Delay: 0.994 ms | Jitter: 0.828 ms | Throughput: 9.697 kbps
+Energy consumed: 1967.559 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: high_mobility | Seed: 42 | Run: 9
+Offered: 5061 | Source TX accepted: 415 | RX: 38 | Lost: 5023
+PDR: 0.751% | Loss: 99.249% | Delay: 7.574 ms | Jitter: 7.984 ms | Throughput: 1.360 kbps
+Energy consumed: 1967.036 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: high_mobility | Seed: 42 | Run: 10
+Offered: 5061 | Source TX accepted: 280 | RX: 71 | Lost: 4990
+PDR: 1.403% | Loss: 98.597% | Delay: 4.828 ms | Jitter: 4.858 ms | Throughput: 2.541 kbps
+Energy consumed: 1965.856 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: high_mobility | Seed: 42 | Run: 1
+Offered: 5061 | Source TX accepted: 5061 | RX: 376 | Lost: 4685
+PDR: 7.429% | Loss: 92.571% | Delay: 1121.164 ms | Jitter: 412.871 ms | Throughput: 13.454 kbps
+Energy consumed: 1965.658 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: high_mobility | Seed: 42 | Run: 2
+Offered: 5061 | Source TX accepted: 5061 | RX: 143 | Lost: 4918
+PDR: 2.826% | Loss: 97.174% | Delay: 1013.338 ms | Jitter: 373.356 ms | Throughput: 5.117 kbps
+Energy consumed: 1965.640 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: high_mobility | Seed: 42 | Run: 3
+Offered: 5061 | Source TX accepted: 5061 | RX: 278 | Lost: 4783
+PDR: 5.493% | Loss: 94.507% | Delay: 536.434 ms | Jitter: 195.741 ms | Throughput: 9.947 kbps
+Energy consumed: 1965.622 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: high_mobility | Seed: 42 | Run: 4
+Offered: 5061 | Source TX accepted: 5061 | RX: 150 | Lost: 4911
+PDR: 2.964% | Loss: 97.036% | Delay: 973.703 ms | Jitter: 363.699 ms | Throughput: 5.367 kbps
+Energy consumed: 1965.612 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: high_mobility | Seed: 42 | Run: 5
+Offered: 5061 | Source TX accepted: 5061 | RX: 68 | Lost: 4993
+PDR: 1.344% | Loss: 98.656% | Delay: 1.225 ms | Jitter: 0.841 ms | Throughput: 2.433 kbps
+Energy consumed: 1965.625 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: high_mobility | Seed: 42 | Run: 6
+Offered: 5061 | Source TX accepted: 5061 | RX: 420 | Lost: 4641
+PDR: 8.299% | Loss: 91.701% | Delay: 345.520 ms | Jitter: 134.472 ms | Throughput: 15.028 kbps
+Energy consumed: 1965.743 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: high_mobility | Seed: 42 | Run: 7
+Offered: 5061 | Source TX accepted: 5061 | RX: 274 | Lost: 4787
+PDR: 5.414% | Loss: 94.586% | Delay: 1100.495 ms | Jitter: 410.023 ms | Throughput: 9.804 kbps
+Energy consumed: 1965.628 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: high_mobility | Seed: 42 | Run: 8
+Offered: 5061 | Source TX accepted: 5061 | RX: 392 | Lost: 4669
+PDR: 7.746% | Loss: 92.254% | Delay: 756.293 ms | Jitter: 266.189 ms | Throughput: 14.026 kbps
+Energy consumed: 1965.656 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: high_mobility | Seed: 42 | Run: 9
+Offered: 5061 | Source TX accepted: 5061 | RX: 230 | Lost: 4831
+PDR: 4.545% | Loss: 95.455% | Delay: 1922.484 ms | Jitter: 690.307 ms | Throughput: 8.230 kbps
+Energy consumed: 1965.730 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: high_mobility | Seed: 42 | Run: 10
+Offered: 5061 | Source TX accepted: 5061 | RX: 228 | Lost: 4833
+PDR: 4.505% | Loss: 95.495% | Delay: 816.764 ms | Jitter: 343.076 ms | Throughput: 8.158 kbps
+Energy consumed: 1965.701 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: high_congestion | Seed: 42 | Run: 1
+Offered: 20249 | Source TX accepted: 20248 | RX: 1949 | Lost: 18300
+PDR: 9.625% | Loss: 90.375% | Delay: 0.441 ms | Jitter: 0.139 ms | Throughput: 69.739 kbps
+Energy consumed: 1965.940 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: high_congestion | Seed: 42 | Run: 2
+Offered: 20249 | Source TX accepted: 20248 | RX: 4064 | Lost: 16185
+PDR: 20.070% | Loss: 79.930% | Delay: 0.964 ms | Jitter: 0.374 ms | Throughput: 145.417 kbps
+Energy consumed: 1966.216 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: high_congestion | Seed: 42 | Run: 3
+Offered: 20249 | Source TX accepted: 20248 | RX: 136 | Lost: 20113
+PDR: 0.672% | Loss: 99.328% | Delay: 23.487 ms | Jitter: 7.794 ms | Throughput: 4.866 kbps
+Energy consumed: 1965.897 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: high_congestion | Seed: 42 | Run: 4
+Offered: 20249 | Source TX accepted: 20248 | RX: 1998 | Lost: 18251
+PDR: 9.867% | Loss: 90.133% | Delay: 1.728 ms | Jitter: 0.523 ms | Throughput: 71.492 kbps
+Energy consumed: 1965.890 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: high_congestion | Seed: 42 | Run: 5
+Offered: 20249 | Source TX accepted: 20248 | RX: 1880 | Lost: 18369
+PDR: 9.284% | Loss: 90.716% | Delay: 1.007 ms | Jitter: 0.277 ms | Throughput: 67.270 kbps
+Energy consumed: 1966.098 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: high_congestion | Seed: 42 | Run: 6
+Offered: 20249 | Source TX accepted: 20248 | RX: 6065 | Lost: 14184
+PDR: 29.952% | Loss: 70.048% | Delay: 56.763 ms | Jitter: 2.635 ms | Throughput: 217.017 kbps
+Energy consumed: 1966.528 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: high_congestion | Seed: 42 | Run: 7
+Offered: 20249 | Source TX accepted: 20248 | RX: 4109 | Lost: 16140
+PDR: 20.292% | Loss: 79.708% | Delay: 32.799 ms | Jitter: 1.513 ms | Throughput: 147.027 kbps
+Energy consumed: 1965.944 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: high_congestion | Seed: 42 | Run: 8
+Offered: 20249 | Source TX accepted: 20248 | RX: 68 | Lost: 20181
+PDR: 0.336% | Loss: 99.664% | Delay: 0.765 ms | Jitter: 0.252 ms | Throughput: 2.433 kbps
+Energy consumed: 1965.850 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: high_congestion | Seed: 42 | Run: 9
+Offered: 20249 | Source TX accepted: 20248 | RX: 0 | Lost: 20249
+PDR: 0.000% | Loss: 100.000% | Delay: 0.000 ms | Jitter: 0.000 ms | Throughput: 0.000 kbps
+Energy consumed: 1965.794 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: high_congestion | Seed: 42 | Run: 10
+Offered: 20249 | Source TX accepted: 20248 | RX: 602 | Lost: 19647
+PDR: 2.973% | Loss: 97.027% | Delay: 0.537 ms | Jitter: 0.075 ms | Throughput: 21.541 kbps
+Energy consumed: 1965.940 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: high_congestion | Seed: 42 | Run: 1
+Offered: 20249 | Source TX accepted: 2760 | RX: 1482 | Lost: 18767
+PDR: 7.319% | Loss: 92.681% | Delay: 6.240 ms | Jitter: 1.298 ms | Throughput: 53.029 kbps
+Energy consumed: 1966.850 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: high_congestion | Seed: 42 | Run: 2
+Offered: 20249 | Source TX accepted: 3907 | RX: 2950 | Lost: 17299
+PDR: 14.569% | Loss: 85.431% | Delay: 0.277 ms | Jitter: 0.064 ms | Throughput: 105.556 kbps
+Energy consumed: 1967.025 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: high_congestion | Seed: 42 | Run: 3
+Offered: 20249 | Source TX accepted: 490 | RX: 51 | Lost: 20198
+PDR: 0.252% | Loss: 99.748% | Delay: 3.903 ms | Jitter: 3.334 ms | Throughput: 1.825 kbps
+Energy consumed: 1966.498 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: high_congestion | Seed: 42 | Run: 4
+Offered: 20249 | Source TX accepted: 2056 | RX: 1831 | Lost: 18418
+PDR: 9.042% | Loss: 90.958% | Delay: 0.273 ms | Jitter: 0.080 ms | Throughput: 65.517 kbps
+Energy consumed: 1966.086 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: high_congestion | Seed: 42 | Run: 5
+Offered: 20249 | Source TX accepted: 1752 | RX: 1428 | Lost: 18821
+PDR: 7.052% | Loss: 92.948% | Delay: 0.529 ms | Jitter: 0.109 ms | Throughput: 51.096 kbps
+Energy consumed: 1965.964 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: high_congestion | Seed: 42 | Run: 6
+Offered: 20249 | Source TX accepted: 6370 | RX: 3850 | Lost: 16399
+PDR: 19.013% | Loss: 80.987% | Delay: 3.049 ms | Jitter: 2.162 ms | Throughput: 137.760 kbps
+Energy consumed: 1969.483 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: high_congestion | Seed: 42 | Run: 7
+Offered: 20249 | Source TX accepted: 4259 | RX: 3689 | Lost: 16560
+PDR: 18.218% | Loss: 81.782% | Delay: 0.367 ms | Jitter: 0.142 ms | Throughput: 131.999 kbps
+Energy consumed: 1965.954 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: high_congestion | Seed: 42 | Run: 8
+Offered: 20249 | Source TX accepted: 519 | RX: 116 | Lost: 20133
+PDR: 0.573% | Loss: 99.427% | Delay: 2.119 ms | Jitter: 1.599 ms | Throughput: 4.151 kbps
+Energy consumed: 1966.257 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: high_congestion | Seed: 42 | Run: 9
+Offered: 20249 | Source TX accepted: 0 | RX: 0 | Lost: 20249
+PDR: 0.000% | Loss: 100.000% | Delay: 0.000 ms | Jitter: 0.000 ms | Throughput: 0.000 kbps
+Energy consumed: 1965.711 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: high_congestion | Seed: 42 | Run: 10
+Offered: 20249 | Source TX accepted: 1017 | RX: 646 | Lost: 19603
+PDR: 3.190% | Loss: 96.810% | Delay: 1.025 ms | Jitter: 0.528 ms | Throughput: 23.115 kbps
+Energy consumed: 1966.347 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: high_congestion | Seed: 42 | Run: 1
+Offered: 20249 | Source TX accepted: 20248 | RX: 1715 | Lost: 18534
+PDR: 8.470% | Loss: 91.530% | Delay: 24.954 ms | Jitter: 15.753 ms | Throughput: 61.366 kbps
+Energy consumed: 1965.741 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: high_congestion | Seed: 42 | Run: 2
+Offered: 20249 | Source TX accepted: 20248 | RX: 4093 | Lost: 16156
+PDR: 20.213% | Loss: 79.787% | Delay: 14.580 ms | Jitter: 10.677 ms | Throughput: 146.455 kbps
+Energy consumed: 1966.083 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: high_congestion | Seed: 42 | Run: 3
+Offered: 20249 | Source TX accepted: 20248 | RX: 0 | Lost: 20249
+PDR: 0.000% | Loss: 100.000% | Delay: 0.000 ms | Jitter: 0.000 ms | Throughput: 0.000 kbps
+Energy consumed: 1965.605 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: high_congestion | Seed: 42 | Run: 4
+Offered: 20249 | Source TX accepted: 20248 | RX: 1979 | Lost: 18270
+PDR: 9.773% | Loss: 90.227% | Delay: 20.195 ms | Jitter: 12.243 ms | Throughput: 70.812 kbps
+Energy consumed: 1965.679 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: high_congestion | Seed: 42 | Run: 5
+Offered: 20249 | Source TX accepted: 20248 | RX: 1701 | Lost: 18548
+PDR: 8.400% | Loss: 91.600% | Delay: 25.297 ms | Jitter: 12.813 ms | Throughput: 60.865 kbps
+Energy consumed: 1965.772 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: high_congestion | Seed: 42 | Run: 6
+Offered: 20249 | Source TX accepted: 20248 | RX: 4360 | Lost: 15889
+PDR: 21.532% | Loss: 78.468% | Delay: 11.236 ms | Jitter: 5.867 ms | Throughput: 156.009 kbps
+Energy consumed: 1966.204 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: high_congestion | Seed: 42 | Run: 7
+Offered: 20249 | Source TX accepted: 20248 | RX: 3058 | Lost: 17191
+PDR: 15.102% | Loss: 84.898% | Delay: 13.213 ms | Jitter: 7.657 ms | Throughput: 109.421 kbps
+Energy consumed: 1965.706 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: high_congestion | Seed: 42 | Run: 8
+Offered: 20249 | Source TX accepted: 20248 | RX: 0 | Lost: 20249
+PDR: 0.000% | Loss: 100.000% | Delay: 0.000 ms | Jitter: 0.000 ms | Throughput: 0.000 kbps
+Energy consumed: 1965.606 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: high_congestion | Seed: 42 | Run: 9
+Offered: 20249 | Source TX accepted: 20248 | RX: 0 | Lost: 20249
+PDR: 0.000% | Loss: 100.000% | Delay: 0.000 ms | Jitter: 0.000 ms | Throughput: 0.000 kbps
+Energy consumed: 1965.604 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: high_congestion | Seed: 42 | Run: 10
+Offered: 20249 | Source TX accepted: 20248 | RX: 430 | Lost: 19819
+PDR: 2.124% | Loss: 97.876% | Delay: 100.685 ms | Jitter: 70.524 ms | Throughput: 15.386 kbps
+Energy consumed: 1965.684 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: low_battery | Seed: 42 | Run: 1
+Offered: 5061 | Source TX accepted: 5061 | RX: 484 | Lost: 4577
+PDR: 9.563% | Loss: 90.437% | Delay: 0.474 ms | Jitter: 0.267 ms | Throughput: 17.318 kbps
+Energy consumed: 741.978 J | Network lifetime: 14.000 s
+CSV: /mnt/d/RelayNet/results/ns3_mutiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+msg="Invalid WifiPhy state OFF", +13.984242140s 10 file=/home/shree/ns-3.47/src/wifi/model/wifi-phy-state-helper.cc, line=368
+NS_FATAL, terminating
+   0# ns3::WifiPhyStateHelper::SwitchToRx(ns3::Time) at :0
+   1# ns3::PhyEntity::StartReceivePayload(ns3::Ptr<ns3::Event>) at :0
+   2# ns3::PhyEntity::StartReceiveField(ns3::WifiPpduField, ns3::Ptr<ns3::Event>) at :0
+   3# ns3::PhyEntity::EndReceiveField(ns3::WifiPpduField, ns3::Ptr<ns3::Event>) at :0
+   4# std::_Function_handler<void (), std::_Bind<void (ns3::PhyEntity::*(ns3::PhyEntity*, ns3::WifiPpduField, ns3::Ptr<ns3::Event>))(ns3::WifiPpduField, ns3::Ptr<ns3::Event>)> >::_M_invoke(std::_Any_data const&) at :0
+   5# ns3::DefaultSimulatorImpl::ProcessOneEvent() at :0
+   6# ns3::DefaultSimulatorImpl::Run() at :0
+   7# main at :0
+   8#      at :0
+   9# __libc_start_main at :0
+  10# _start at :0
+  11# 
+
+terminate called without an active exception
+Command 'build/scratch/ns3.47-relaynet-manet --protocol=AODV --scenario=low_battery --output=/mnt/d/RelayNet/results/ns3_mutiseed_final.csv --seed=42 --run=2' died with <Signals.SIGABRT: 6>.
+[0/2] Re-checking globbed directories...
+[1/2] Building CXX object scratch/CMakeFiles/scratch_relaynet-manet.dir/relaynet-manet.cc.o
+[2/2] Linking CXX executable /home/shree/ns-3.47/build/scratch/ns3.47-relaynet-manet
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: normal | Seed: 42 | Run: 1
+Offered: 5061 | Source TX accepted: 5061 | RX: 484 | Lost: 4577
+PDR: 9.563% | Loss: 90.437% | Delay: 0.474 ms | Jitter: 0.267 ms | Throughput: 17.318 kbps
+Energy consumed: 1965.829 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: normal | Seed: 42 | Run: 2
+Offered: 5061 | Source TX accepted: 5061 | RX: 1016 | Lost: 4045
+PDR: 20.075% | Loss: 79.925% | Delay: 8.506 ms | Jitter: 4.366 ms | Throughput: 36.354 kbps
+Energy consumed: 1965.973 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: normal | Seed: 42 | Run: 3
+Offered: 5061 | Source TX accepted: 5061 | RX: 32 | Lost: 5029
+PDR: 0.632% | Loss: 99.368% | Delay: 375.488 ms | Jitter: 139.996 ms | Throughput: 1.145 kbps
+Energy consumed: 1965.824 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: normal | Seed: 42 | Run: 4
+Offered: 5061 | Source TX accepted: 5061 | RX: 495 | Lost: 4566
+PDR: 9.781% | Loss: 90.219% | Delay: 7.231 ms | Jitter: 2.502 ms | Throughput: 17.712 kbps
+Energy consumed: 1965.834 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: normal | Seed: 42 | Run: 5
+Offered: 5061 | Source TX accepted: 5061 | RX: 457 | Lost: 4604
+PDR: 9.030% | Loss: 90.970% | Delay: 6.173 ms | Jitter: 5.243 ms | Throughput: 16.352 kbps
+Energy consumed: 1965.933 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: normal | Seed: 42 | Run: 6
+Offered: 5061 | Source TX accepted: 5061 | RX: 1607 | Lost: 3454
+PDR: 31.753% | Loss: 68.247% | Delay: 216.870 ms | Jitter: 15.952 ms | Throughput: 57.501 kbps
+Energy consumed: 1966.075 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: normal | Seed: 42 | Run: 7
+Offered: 5061 | Source TX accepted: 5061 | RX: 1065 | Lost: 3996
+PDR: 21.043% | Loss: 78.957% | Delay: 223.108 ms | Jitter: 14.388 ms | Throughput: 38.108 kbps
+Energy consumed: 1965.824 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: normal | Seed: 42 | Run: 8
+Offered: 5061 | Source TX accepted: 5061 | RX: 12 | Lost: 5049
+PDR: 0.237% | Loss: 99.763% | Delay: 1.866 ms | Jitter: 1.821 ms | Throughput: 0.429 kbps
+Energy consumed: 1965.836 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: normal | Seed: 42 | Run: 9
+Offered: 5061 | Source TX accepted: 5061 | RX: 0 | Lost: 5061
+PDR: 0.000% | Loss: 100.000% | Delay: 0.000 ms | Jitter: 0.000 ms | Throughput: 0.000 kbps
+Energy consumed: 1965.792 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: normal | Seed: 42 | Run: 10
+Offered: 5061 | Source TX accepted: 5061 | RX: 134 | Lost: 4927
+PDR: 2.648% | Loss: 97.352% | Delay: 15.149 ms | Jitter: 7.773 ms | Throughput: 4.795 kbps
+Energy consumed: 1965.862 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: normal | Seed: 42 | Run: 1
+Offered: 5061 | Source TX accepted: 748 | RX: 369 | Lost: 4692
+PDR: 7.291% | Loss: 92.709% | Delay: 2.271 ms | Jitter: 2.668 ms | Throughput: 13.203 kbps
+Energy consumed: 1966.929 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: normal | Seed: 42 | Run: 2
+Offered: 5061 | Source TX accepted: 881 | RX: 742 | Lost: 4319
+PDR: 14.661% | Loss: 85.339% | Delay: 0.694 ms | Jitter: 0.750 ms | Throughput: 26.550 kbps
+Energy consumed: 1966.731 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: normal | Seed: 42 | Run: 3
+Offered: 5061 | Source TX accepted: 130 | RX: 13 | Lost: 5048
+PDR: 0.257% | Loss: 99.743% | Delay: 12.603 ms | Jitter: 15.702 ms | Throughput: 0.465 kbps
+Energy consumed: 1966.415 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: normal | Seed: 42 | Run: 4
+Offered: 5061 | Source TX accepted: 514 | RX: 457 | Lost: 4604
+PDR: 9.030% | Loss: 90.970% | Delay: 0.506 ms | Jitter: 0.313 ms | Throughput: 16.352 kbps
+Energy consumed: 1966.009 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: normal | Seed: 42 | Run: 5
+Offered: 5061 | Source TX accepted: 438 | RX: 357 | Lost: 4704
+PDR: 7.054% | Loss: 92.946% | Delay: 0.853 ms | Jitter: 0.445 ms | Throughput: 12.774 kbps
+Energy consumed: 1965.868 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: normal | Seed: 42 | Run: 6
+Offered: 5061 | Source TX accepted: 1687 | RX: 993 | Lost: 4068
+PDR: 19.621% | Loss: 80.379% | Delay: 12.290 ms | Jitter: 9.584 ms | Throughput: 35.531 kbps
+Energy consumed: 1969.766 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: normal | Seed: 42 | Run: 7
+Offered: 5061 | Source TX accepted: 1064 | RX: 922 | Lost: 4139
+PDR: 18.218% | Loss: 81.782% | Delay: 0.642 ms | Jitter: 0.478 ms | Throughput: 32.991 kbps
+Energy consumed: 1965.838 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: normal | Seed: 42 | Run: 8
+Offered: 5061 | Source TX accepted: 130 | RX: 29 | Lost: 5032
+PDR: 0.573% | Loss: 99.427% | Delay: 5.594 ms | Jitter: 5.674 ms | Throughput: 1.038 kbps
+Energy consumed: 1966.187 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: normal | Seed: 42 | Run: 9
+Offered: 5061 | Source TX accepted: 0 | RX: 0 | Lost: 5061
+PDR: 0.000% | Loss: 100.000% | Delay: 0.000 ms | Jitter: 0.000 ms | Throughput: 0.000 kbps
+Energy consumed: 1965.711 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: normal | Seed: 42 | Run: 10
+Offered: 5061 | Source TX accepted: 254 | RX: 162 | Lost: 4899
+PDR: 3.201% | Loss: 96.799% | Delay: 2.341 ms | Jitter: 1.967 ms | Throughput: 5.797 kbps
+Energy consumed: 1966.234 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: normal | Seed: 42 | Run: 1
+Offered: 5061 | Source TX accepted: 5061 | RX: 474 | Lost: 4587
+PDR: 9.366% | Loss: 90.634% | Delay: 315.617 ms | Jitter: 126.539 ms | Throughput: 16.961 kbps
+Energy consumed: 1965.658 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: normal | Seed: 42 | Run: 2
+Offered: 5061 | Source TX accepted: 5061 | RX: 1065 | Lost: 3996
+PDR: 21.043% | Loss: 78.957% | Delay: 134.548 ms | Jitter: 55.982 ms | Throughput: 38.108 kbps
+Energy consumed: 1965.829 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: normal | Seed: 42 | Run: 3
+Offered: 5061 | Source TX accepted: 5061 | RX: 0 | Lost: 5061
+PDR: 0.000% | Loss: 100.000% | Delay: 0.000 ms | Jitter: 0.000 ms | Throughput: 0.000 kbps
+Energy consumed: 1965.605 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: normal | Seed: 42 | Run: 4
+Offered: 5061 | Source TX accepted: 5061 | RX: 542 | Lost: 4519
+PDR: 10.709% | Loss: 89.291% | Delay: 283.071 ms | Jitter: 111.539 ms | Throughput: 19.394 kbps
+Energy consumed: 1965.629 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: normal | Seed: 42 | Run: 5
+Offered: 5061 | Source TX accepted: 5061 | RX: 472 | Lost: 4589
+PDR: 9.326% | Loss: 90.674% | Delay: 307.076 ms | Jitter: 96.042 ms | Throughput: 16.889 kbps
+Energy consumed: 1965.664 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: normal | Seed: 42 | Run: 6
+Offered: 5061 | Source TX accepted: 5061 | RX: 1136 | Lost: 3925
+PDR: 22.446% | Loss: 77.554% | Delay: 134.302 ms | Jitter: 47.225 ms | Throughput: 40.648 kbps
+Energy consumed: 1965.840 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: normal | Seed: 42 | Run: 7
+Offered: 5061 | Source TX accepted: 5061 | RX: 810 | Lost: 4251
+PDR: 16.005% | Loss: 83.995% | Delay: 186.092 ms | Jitter: 67.367 ms | Throughput: 28.983 kbps
+Energy consumed: 1965.632 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: normal | Seed: 42 | Run: 8
+Offered: 5061 | Source TX accepted: 5061 | RX: 0 | Lost: 5061
+PDR: 0.000% | Loss: 100.000% | Delay: 0.000 ms | Jitter: 0.000 ms | Throughput: 0.000 kbps
+Energy consumed: 1965.606 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: normal | Seed: 42 | Run: 9
+Offered: 5061 | Source TX accepted: 5061 | RX: 0 | Lost: 5061
+PDR: 0.000% | Loss: 100.000% | Delay: 0.000 ms | Jitter: 0.000 ms | Throughput: 0.000 kbps
+Energy consumed: 1965.604 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: normal | Seed: 42 | Run: 10
+Offered: 5061 | Source TX accepted: 5061 | RX: 150 | Lost: 4911
+PDR: 2.964% | Loss: 97.036% | Delay: 981.652 ms | Jitter: 379.857 ms | Throughput: 5.367 kbps
+Energy consumed: 1965.643 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: high_mobility | Seed: 42 | Run: 1
+Offered: 5061 | Source TX accepted: 5061 | RX: 440 | Lost: 4621
+PDR: 8.694% | Loss: 91.306% | Delay: 429.821 ms | Jitter: 35.309 ms | Throughput: 15.744 kbps
+Energy consumed: 1966.010 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: high_mobility | Seed: 42 | Run: 2
+Offered: 5061 | Source TX accepted: 5061 | RX: 711 | Lost: 4350
+PDR: 14.049% | Loss: 85.951% | Delay: 366.080 ms | Jitter: 41.204 ms | Throughput: 25.441 kbps
+Energy consumed: 1966.649 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: high_mobility | Seed: 42 | Run: 3
+Offered: 5061 | Source TX accepted: 5061 | RX: 338 | Lost: 4723
+PDR: 6.679% | Loss: 93.321% | Delay: 0.490 ms | Jitter: 0.339 ms | Throughput: 12.094 kbps
+Energy consumed: 1965.883 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: high_mobility | Seed: 42 | Run: 4
+Offered: 5061 | Source TX accepted: 5061 | RX: 195 | Lost: 4866
+PDR: 3.853% | Loss: 96.147% | Delay: 1133.441 ms | Jitter: 56.909 ms | Throughput: 6.977 kbps
+Energy consumed: 1965.804 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: high_mobility | Seed: 42 | Run: 5
+Offered: 5061 | Source TX accepted: 5061 | RX: 175 | Lost: 4886
+PDR: 3.458% | Loss: 96.542% | Delay: 864.975 ms | Jitter: 55.391 ms | Throughput: 6.262 kbps
+Energy consumed: 1966.063 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: high_mobility | Seed: 42 | Run: 6
+Offered: 5061 | Source TX accepted: 5061 | RX: 729 | Lost: 4332
+PDR: 14.404% | Loss: 85.596% | Delay: 377.040 ms | Jitter: 30.851 ms | Throughput: 26.085 kbps
+Energy consumed: 1966.211 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: high_mobility | Seed: 42 | Run: 7
+Offered: 5061 | Source TX accepted: 5061 | RX: 409 | Lost: 4652
+PDR: 8.081% | Loss: 91.919% | Delay: 736.348 ms | Jitter: 54.382 ms | Throughput: 14.635 kbps
+Energy consumed: 1965.837 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: high_mobility | Seed: 42 | Run: 8
+Offered: 5061 | Source TX accepted: 5061 | RX: 407 | Lost: 4654
+PDR: 8.042% | Loss: 91.958% | Delay: 18.002 ms | Jitter: 11.804 ms | Throughput: 14.563 kbps
+Energy consumed: 1966.125 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: high_mobility | Seed: 42 | Run: 9
+Offered: 5061 | Source TX accepted: 5061 | RX: 332 | Lost: 4729
+PDR: 6.560% | Loss: 93.440% | Delay: 1386.698 ms | Jitter: 93.244 ms | Throughput: 11.880 kbps
+Energy consumed: 1965.865 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: high_mobility | Seed: 42 | Run: 10
+Offered: 5061 | Source TX accepted: 5061 | RX: 236 | Lost: 4825
+PDR: 4.663% | Loss: 95.337% | Delay: 670.696 ms | Jitter: 46.835 ms | Throughput: 8.445 kbps
+Energy consumed: 1965.821 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: high_mobility | Seed: 42 | Run: 1
+Offered: 5061 | Source TX accepted: 604 | RX: 161 | Lost: 4900
+PDR: 3.181% | Loss: 96.819% | Delay: 2.270 ms | Jitter: 2.411 ms | Throughput: 5.761 kbps
+Energy consumed: 1966.441 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: high_mobility | Seed: 42 | Run: 2
+Offered: 5061 | Source TX accepted: 837 | RX: 457 | Lost: 4604
+PDR: 9.030% | Loss: 90.970% | Delay: 2.430 ms | Jitter: 3.121 ms | Throughput: 16.352 kbps
+Energy consumed: 1966.748 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: high_mobility | Seed: 42 | Run: 3
+Offered: 5061 | Source TX accepted: 602 | RX: 238 | Lost: 4823
+PDR: 4.703% | Loss: 95.297% | Delay: 1.579 ms | Jitter: 1.555 ms | Throughput: 8.516 kbps
+Energy consumed: 1966.199 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: high_mobility | Seed: 42 | Run: 4
+Offered: 5061 | Source TX accepted: 184 | RX: 95 | Lost: 4966
+PDR: 1.877% | Loss: 98.123% | Delay: 3.287 ms | Jitter: 3.038 ms | Throughput: 3.399 kbps
+Energy consumed: 1966.008 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: high_mobility | Seed: 42 | Run: 5
+Offered: 5061 | Source TX accepted: 255 | RX: 70 | Lost: 4991
+PDR: 1.383% | Loss: 98.617% | Delay: 3.512 ms | Jitter: 3.350 ms | Throughput: 2.505 kbps
+Energy consumed: 1966.380 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: high_mobility | Seed: 42 | Run: 6
+Offered: 5061 | Source TX accepted: 950 | RX: 462 | Lost: 4599
+PDR: 9.129% | Loss: 90.871% | Delay: 2.973 ms | Jitter: 4.806 ms | Throughput: 16.531 kbps
+Energy consumed: 1968.923 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: high_mobility | Seed: 42 | Run: 7
+Offered: 5061 | Source TX accepted: 374 | RX: 213 | Lost: 4848
+PDR: 4.209% | Loss: 95.791% | Delay: 2.132 ms | Jitter: 1.980 ms | Throughput: 7.622 kbps
+Energy consumed: 1966.402 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: high_mobility | Seed: 42 | Run: 8
+Offered: 5061 | Source TX accepted: 530 | RX: 271 | Lost: 4790
+PDR: 5.355% | Loss: 94.645% | Delay: 0.994 ms | Jitter: 0.828 ms | Throughput: 9.697 kbps
+Energy consumed: 1967.559 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: high_mobility | Seed: 42 | Run: 9
+Offered: 5061 | Source TX accepted: 415 | RX: 38 | Lost: 5023
+PDR: 0.751% | Loss: 99.249% | Delay: 7.574 ms | Jitter: 7.984 ms | Throughput: 1.360 kbps
+Energy consumed: 1967.036 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: high_mobility | Seed: 42 | Run: 10
+Offered: 5061 | Source TX accepted: 280 | RX: 71 | Lost: 4990
+PDR: 1.403% | Loss: 98.597% | Delay: 4.828 ms | Jitter: 4.858 ms | Throughput: 2.541 kbps
+Energy consumed: 1965.856 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: high_mobility | Seed: 42 | Run: 1
+Offered: 5061 | Source TX accepted: 5061 | RX: 376 | Lost: 4685
+PDR: 7.429% | Loss: 92.571% | Delay: 1121.164 ms | Jitter: 412.871 ms | Throughput: 13.454 kbps
+Energy consumed: 1965.658 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: high_mobility | Seed: 42 | Run: 2
+Offered: 5061 | Source TX accepted: 5061 | RX: 143 | Lost: 4918
+PDR: 2.826% | Loss: 97.174% | Delay: 1013.338 ms | Jitter: 373.356 ms | Throughput: 5.117 kbps
+Energy consumed: 1965.640 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: high_mobility | Seed: 42 | Run: 3
+Offered: 5061 | Source TX accepted: 5061 | RX: 278 | Lost: 4783
+PDR: 5.493% | Loss: 94.507% | Delay: 536.434 ms | Jitter: 195.741 ms | Throughput: 9.947 kbps
+Energy consumed: 1965.622 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: high_mobility | Seed: 42 | Run: 4
+Offered: 5061 | Source TX accepted: 5061 | RX: 150 | Lost: 4911
+PDR: 2.964% | Loss: 97.036% | Delay: 973.703 ms | Jitter: 363.699 ms | Throughput: 5.367 kbps
+Energy consumed: 1965.612 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: high_mobility | Seed: 42 | Run: 5
+Offered: 5061 | Source TX accepted: 5061 | RX: 68 | Lost: 4993
+PDR: 1.344% | Loss: 98.656% | Delay: 1.225 ms | Jitter: 0.841 ms | Throughput: 2.433 kbps
+Energy consumed: 1965.625 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: high_mobility | Seed: 42 | Run: 6
+Offered: 5061 | Source TX accepted: 5061 | RX: 420 | Lost: 4641
+PDR: 8.299% | Loss: 91.701% | Delay: 345.520 ms | Jitter: 134.472 ms | Throughput: 15.028 kbps
+Energy consumed: 1965.743 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: high_mobility | Seed: 42 | Run: 7
+Offered: 5061 | Source TX accepted: 5061 | RX: 274 | Lost: 4787
+PDR: 5.414% | Loss: 94.586% | Delay: 1100.495 ms | Jitter: 410.023 ms | Throughput: 9.804 kbps
+Energy consumed: 1965.628 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: high_mobility | Seed: 42 | Run: 8
+Offered: 5061 | Source TX accepted: 5061 | RX: 392 | Lost: 4669
+PDR: 7.746% | Loss: 92.254% | Delay: 756.293 ms | Jitter: 266.189 ms | Throughput: 14.026 kbps
+Energy consumed: 1965.656 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: high_mobility | Seed: 42 | Run: 9
+Offered: 5061 | Source TX accepted: 5061 | RX: 230 | Lost: 4831
+PDR: 4.545% | Loss: 95.455% | Delay: 1922.484 ms | Jitter: 690.307 ms | Throughput: 8.230 kbps
+Energy consumed: 1965.730 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: high_mobility | Seed: 42 | Run: 10
+Offered: 5061 | Source TX accepted: 5061 | RX: 228 | Lost: 4833
+PDR: 4.505% | Loss: 95.495% | Delay: 816.764 ms | Jitter: 343.076 ms | Throughput: 8.158 kbps
+Energy consumed: 1965.701 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: high_congestion | Seed: 42 | Run: 1
+Offered: 20249 | Source TX accepted: 20248 | RX: 1949 | Lost: 18300
+PDR: 9.625% | Loss: 90.375% | Delay: 0.441 ms | Jitter: 0.139 ms | Throughput: 69.739 kbps
+Energy consumed: 1965.940 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: high_congestion | Seed: 42 | Run: 2
+Offered: 20249 | Source TX accepted: 20248 | RX: 4064 | Lost: 16185
+PDR: 20.070% | Loss: 79.930% | Delay: 0.964 ms | Jitter: 0.374 ms | Throughput: 145.417 kbps
+Energy consumed: 1966.216 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: high_congestion | Seed: 42 | Run: 3
+Offered: 20249 | Source TX accepted: 20248 | RX: 136 | Lost: 20113
+PDR: 0.672% | Loss: 99.328% | Delay: 23.487 ms | Jitter: 7.794 ms | Throughput: 4.866 kbps
+Energy consumed: 1965.897 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: high_congestion | Seed: 42 | Run: 4
+Offered: 20249 | Source TX accepted: 20248 | RX: 1998 | Lost: 18251
+PDR: 9.867% | Loss: 90.133% | Delay: 1.728 ms | Jitter: 0.523 ms | Throughput: 71.492 kbps
+Energy consumed: 1965.890 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: high_congestion | Seed: 42 | Run: 5
+Offered: 20249 | Source TX accepted: 20248 | RX: 1880 | Lost: 18369
+PDR: 9.284% | Loss: 90.716% | Delay: 1.007 ms | Jitter: 0.277 ms | Throughput: 67.270 kbps
+Energy consumed: 1966.098 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: high_congestion | Seed: 42 | Run: 6
+Offered: 20249 | Source TX accepted: 20248 | RX: 6065 | Lost: 14184
+PDR: 29.952% | Loss: 70.048% | Delay: 56.763 ms | Jitter: 2.635 ms | Throughput: 217.017 kbps
+Energy consumed: 1966.528 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: high_congestion | Seed: 42 | Run: 7
+Offered: 20249 | Source TX accepted: 20248 | RX: 4109 | Lost: 16140
+PDR: 20.292% | Loss: 79.708% | Delay: 32.799 ms | Jitter: 1.513 ms | Throughput: 147.027 kbps
+Energy consumed: 1965.944 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: high_congestion | Seed: 42 | Run: 8
+Offered: 20249 | Source TX accepted: 20248 | RX: 68 | Lost: 20181
+PDR: 0.336% | Loss: 99.664% | Delay: 0.765 ms | Jitter: 0.252 ms | Throughput: 2.433 kbps
+Energy consumed: 1965.850 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: high_congestion | Seed: 42 | Run: 9
+Offered: 20249 | Source TX accepted: 20248 | RX: 0 | Lost: 20249
+PDR: 0.000% | Loss: 100.000% | Delay: 0.000 ms | Jitter: 0.000 ms | Throughput: 0.000 kbps
+Energy consumed: 1965.794 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: high_congestion | Seed: 42 | Run: 10
+Offered: 20249 | Source TX accepted: 20248 | RX: 602 | Lost: 19647
+PDR: 2.973% | Loss: 97.027% | Delay: 0.537 ms | Jitter: 0.075 ms | Throughput: 21.541 kbps
+Energy consumed: 1965.940 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: high_congestion | Seed: 42 | Run: 1
+Offered: 20249 | Source TX accepted: 2760 | RX: 1482 | Lost: 18767
+PDR: 7.319% | Loss: 92.681% | Delay: 6.240 ms | Jitter: 1.298 ms | Throughput: 53.029 kbps
+Energy consumed: 1966.850 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: high_congestion | Seed: 42 | Run: 2
+Offered: 20249 | Source TX accepted: 3907 | RX: 2950 | Lost: 17299
+PDR: 14.569% | Loss: 85.431% | Delay: 0.277 ms | Jitter: 0.064 ms | Throughput: 105.556 kbps
+Energy consumed: 1967.025 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: high_congestion | Seed: 42 | Run: 3
+Offered: 20249 | Source TX accepted: 490 | RX: 51 | Lost: 20198
+PDR: 0.252% | Loss: 99.748% | Delay: 3.903 ms | Jitter: 3.334 ms | Throughput: 1.825 kbps
+Energy consumed: 1966.498 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: high_congestion | Seed: 42 | Run: 4
+Offered: 20249 | Source TX accepted: 2056 | RX: 1831 | Lost: 18418
+PDR: 9.042% | Loss: 90.958% | Delay: 0.273 ms | Jitter: 0.080 ms | Throughput: 65.517 kbps
+Energy consumed: 1966.086 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: high_congestion | Seed: 42 | Run: 5
+Offered: 20249 | Source TX accepted: 1752 | RX: 1428 | Lost: 18821
+PDR: 7.052% | Loss: 92.948% | Delay: 0.529 ms | Jitter: 0.109 ms | Throughput: 51.096 kbps
+Energy consumed: 1965.964 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: high_congestion | Seed: 42 | Run: 6
+Offered: 20249 | Source TX accepted: 6370 | RX: 3850 | Lost: 16399
+PDR: 19.013% | Loss: 80.987% | Delay: 3.049 ms | Jitter: 2.162 ms | Throughput: 137.760 kbps
+Energy consumed: 1969.483 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: high_congestion | Seed: 42 | Run: 7
+Offered: 20249 | Source TX accepted: 4259 | RX: 3689 | Lost: 16560
+PDR: 18.218% | Loss: 81.782% | Delay: 0.367 ms | Jitter: 0.142 ms | Throughput: 131.999 kbps
+Energy consumed: 1965.954 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: high_congestion | Seed: 42 | Run: 8
+Offered: 20249 | Source TX accepted: 519 | RX: 116 | Lost: 20133
+PDR: 0.573% | Loss: 99.427% | Delay: 2.119 ms | Jitter: 1.599 ms | Throughput: 4.151 kbps
+Energy consumed: 1966.257 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: high_congestion | Seed: 42 | Run: 9
+Offered: 20249 | Source TX accepted: 0 | RX: 0 | Lost: 20249
+PDR: 0.000% | Loss: 100.000% | Delay: 0.000 ms | Jitter: 0.000 ms | Throughput: 0.000 kbps
+Energy consumed: 1965.711 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: high_congestion | Seed: 42 | Run: 10
+Offered: 20249 | Source TX accepted: 1017 | RX: 646 | Lost: 19603
+PDR: 3.190% | Loss: 96.810% | Delay: 1.025 ms | Jitter: 0.528 ms | Throughput: 23.115 kbps
+Energy consumed: 1966.347 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: high_congestion | Seed: 42 | Run: 1
+Offered: 20249 | Source TX accepted: 20248 | RX: 1715 | Lost: 18534
+PDR: 8.470% | Loss: 91.530% | Delay: 24.954 ms | Jitter: 15.753 ms | Throughput: 61.366 kbps
+Energy consumed: 1965.741 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: high_congestion | Seed: 42 | Run: 2
+Offered: 20249 | Source TX accepted: 20248 | RX: 4093 | Lost: 16156
+PDR: 20.213% | Loss: 79.787% | Delay: 14.580 ms | Jitter: 10.677 ms | Throughput: 146.455 kbps
+Energy consumed: 1966.083 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: high_congestion | Seed: 42 | Run: 3
+Offered: 20249 | Source TX accepted: 20248 | RX: 0 | Lost: 20249
+PDR: 0.000% | Loss: 100.000% | Delay: 0.000 ms | Jitter: 0.000 ms | Throughput: 0.000 kbps
+Energy consumed: 1965.605 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: high_congestion | Seed: 42 | Run: 4
+Offered: 20249 | Source TX accepted: 20248 | RX: 1979 | Lost: 18270
+PDR: 9.773% | Loss: 90.227% | Delay: 20.195 ms | Jitter: 12.243 ms | Throughput: 70.812 kbps
+Energy consumed: 1965.679 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: high_congestion | Seed: 42 | Run: 5
+Offered: 20249 | Source TX accepted: 20248 | RX: 1701 | Lost: 18548
+PDR: 8.400% | Loss: 91.600% | Delay: 25.297 ms | Jitter: 12.813 ms | Throughput: 60.865 kbps
+Energy consumed: 1965.772 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: high_congestion | Seed: 42 | Run: 6
+Offered: 20249 | Source TX accepted: 20248 | RX: 4360 | Lost: 15889
+PDR: 21.532% | Loss: 78.468% | Delay: 11.236 ms | Jitter: 5.867 ms | Throughput: 156.009 kbps
+Energy consumed: 1966.204 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: high_congestion | Seed: 42 | Run: 7
+Offered: 20249 | Source TX accepted: 20248 | RX: 3058 | Lost: 17191
+PDR: 15.102% | Loss: 84.898% | Delay: 13.213 ms | Jitter: 7.657 ms | Throughput: 109.421 kbps
+Energy consumed: 1965.706 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: high_congestion | Seed: 42 | Run: 8
+Offered: 20249 | Source TX accepted: 20248 | RX: 0 | Lost: 20249
+PDR: 0.000% | Loss: 100.000% | Delay: 0.000 ms | Jitter: 0.000 ms | Throughput: 0.000 kbps
+Energy consumed: 1965.606 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: high_congestion | Seed: 42 | Run: 9
+Offered: 20249 | Source TX accepted: 20248 | RX: 0 | Lost: 20249
+PDR: 0.000% | Loss: 100.000% | Delay: 0.000 ms | Jitter: 0.000 ms | Throughput: 0.000 kbps
+Energy consumed: 1965.604 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: high_congestion | Seed: 42 | Run: 10
+Offered: 20249 | Source TX accepted: 20248 | RX: 430 | Lost: 19819
+PDR: 2.124% | Loss: 97.876% | Delay: 100.685 ms | Jitter: 70.524 ms | Throughput: 15.386 kbps
+Energy consumed: 1965.684 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: low_battery | Seed: 42 | Run: 1
+Offered: 5061 | Source TX accepted: 5061 | RX: 484 | Lost: 4577
+PDR: 9.563% | Loss: 90.437% | Delay: 0.474 ms | Jitter: 0.267 ms | Throughput: 17.318 kbps
+Energy consumed: 743.170 J | Network lifetime: 14.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: low_battery | Seed: 42 | Run: 2
+Offered: 5061 | Source TX accepted: 5061 | RX: 1016 | Lost: 4045
+PDR: 20.075% | Loss: 79.925% | Delay: 8.506 ms | Jitter: 4.366 ms | Throughput: 36.354 kbps
+Energy consumed: 741.596 J | Network lifetime: 13.427 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: low_battery | Seed: 42 | Run: 3
+Offered: 5061 | Source TX accepted: 5061 | RX: 32 | Lost: 5029
+PDR: 0.632% | Loss: 99.368% | Delay: 375.488 ms | Jitter: 139.996 ms | Throughput: 1.145 kbps
+Energy consumed: 746.624 J | Network lifetime: 13.933 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: low_battery | Seed: 42 | Run: 4
+Offered: 5061 | Source TX accepted: 5061 | RX: 495 | Lost: 4566
+PDR: 9.781% | Loss: 90.219% | Delay: 7.231 ms | Jitter: 2.502 ms | Throughput: 17.712 kbps
+Energy consumed: 749.216 J | Network lifetime: 13.296 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: low_battery | Seed: 42 | Run: 5
+Offered: 5061 | Source TX accepted: 5061 | RX: 457 | Lost: 4604
+PDR: 9.030% | Loss: 90.970% | Delay: 6.173 ms | Jitter: 5.243 ms | Throughput: 16.352 kbps
+Energy consumed: 745.776 J | Network lifetime: 13.267 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: low_battery | Seed: 42 | Run: 6
+Offered: 5061 | Source TX accepted: 5061 | RX: 1607 | Lost: 3454
+PDR: 31.753% | Loss: 68.247% | Delay: 216.870 ms | Jitter: 15.952 ms | Throughput: 57.501 kbps
+Energy consumed: 743.621 J | Network lifetime: 13.934 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: low_battery | Seed: 42 | Run: 7
+Offered: 5061 | Source TX accepted: 5061 | RX: 1065 | Lost: 3996
+PDR: 21.043% | Loss: 78.957% | Delay: 223.108 ms | Jitter: 14.388 ms | Throughput: 38.108 kbps
+Energy consumed: 745.262 J | Network lifetime: 13.268 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: low_battery | Seed: 42 | Run: 8
+Offered: 5061 | Source TX accepted: 5061 | RX: 12 | Lost: 5049
+PDR: 0.237% | Loss: 99.763% | Delay: 1.866 ms | Jitter: 1.821 ms | Throughput: 0.429 kbps
+Energy consumed: 739.357 J | Network lifetime: 13.425 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: low_battery | Seed: 42 | Run: 9
+Offered: 5061 | Source TX accepted: 5061 | RX: 0 | Lost: 5061
+PDR: 0.000% | Loss: 100.000% | Delay: 0.000 ms | Jitter: 0.000 ms | Throughput: 0.000 kbps
+Energy consumed: 746.511 J | Network lifetime: 13.420 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: low_battery | Seed: 42 | Run: 10
+Offered: 5061 | Source TX accepted: 5061 | RX: 134 | Lost: 4927
+PDR: 2.648% | Loss: 97.352% | Delay: 15.149 ms | Jitter: 7.773 ms | Throughput: 4.795 kbps
+Energy consumed: 741.288 J | Network lifetime: 14.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: low_battery | Seed: 42 | Run: 1
+Offered: 5061 | Source TX accepted: 748 | RX: 369 | Lost: 4692
+PDR: 7.291% | Loss: 92.709% | Delay: 2.271 ms | Jitter: 2.668 ms | Throughput: 13.203 kbps
+Energy consumed: 744.240 J | Network lifetime: 13.327 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: low_battery | Seed: 42 | Run: 2
+Offered: 5061 | Source TX accepted: 881 | RX: 742 | Lost: 4319
+PDR: 14.661% | Loss: 85.339% | Delay: 0.694 ms | Jitter: 0.750 ms | Throughput: 26.550 kbps
+Energy consumed: 742.611 J | Network lifetime: 13.604 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: low_battery | Seed: 42 | Run: 3
+Offered: 5061 | Source TX accepted: 130 | RX: 13 | Lost: 5048
+PDR: 0.257% | Loss: 99.743% | Delay: 12.603 ms | Jitter: 15.702 ms | Throughput: 0.465 kbps
+Energy consumed: 746.786 J | Network lifetime: 13.838 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: low_battery | Seed: 42 | Run: 4
+Offered: 5061 | Source TX accepted: 514 | RX: 457 | Lost: 4604
+PDR: 9.030% | Loss: 90.970% | Delay: 0.506 ms | Jitter: 0.313 ms | Throughput: 16.352 kbps
+Energy consumed: 749.526 J | Network lifetime: 13.343 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: low_battery | Seed: 42 | Run: 5
+Offered: 5061 | Source TX accepted: 438 | RX: 357 | Lost: 4704
+PDR: 7.054% | Loss: 92.946% | Delay: 0.853 ms | Jitter: 0.445 ms | Throughput: 12.774 kbps
+Energy consumed: 745.817 J | Network lifetime: 13.585 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: low_battery | Seed: 42 | Run: 6
+Offered: 5061 | Source TX accepted: 1687 | RX: 993 | Lost: 4068
+PDR: 19.621% | Loss: 80.379% | Delay: 12.290 ms | Jitter: 9.584 ms | Throughput: 35.531 kbps
+Energy consumed: 745.444 J | Network lifetime: 13.849 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: low_battery | Seed: 42 | Run: 7
+Offered: 5061 | Source TX accepted: 1064 | RX: 922 | Lost: 4139
+PDR: 18.218% | Loss: 81.782% | Delay: 0.642 ms | Jitter: 0.478 ms | Throughput: 32.991 kbps
+Energy consumed: 745.535 J | Network lifetime: 13.823 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: low_battery | Seed: 42 | Run: 8
+Offered: 5061 | Source TX accepted: 130 | RX: 29 | Lost: 5032
+PDR: 0.573% | Loss: 99.427% | Delay: 5.594 ms | Jitter: 5.674 ms | Throughput: 1.038 kbps
+Energy consumed: 739.882 J | Network lifetime: 13.576 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: low_battery | Seed: 42 | Run: 9
+Offered: 5061 | Source TX accepted: 0 | RX: 0 | Lost: 5061
+PDR: 0.000% | Loss: 100.000% | Delay: 0.000 ms | Jitter: 0.000 ms | Throughput: 0.000 kbps
+Energy consumed: 746.886 J | Network lifetime: 13.313 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: low_battery | Seed: 42 | Run: 10
+Offered: 5061 | Source TX accepted: 254 | RX: 162 | Lost: 4899
+PDR: 3.201% | Loss: 96.799% | Delay: 2.341 ms | Jitter: 1.967 ms | Throughput: 5.797 kbps
+Energy consumed: 741.509 J | Network lifetime: 14.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: low_battery | Seed: 42 | Run: 1
+Offered: 5061 | Source TX accepted: 5061 | RX: 367 | Lost: 4694
+PDR: 7.252% | Loss: 92.748% | Delay: 407.490 ms | Jitter: 163.693 ms | Throughput: 13.132 kbps
+Energy consumed: 756.745 J | Network lifetime: 13.240 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: low_battery | Seed: 42 | Run: 2
+Offered: 5061 | Source TX accepted: 5061 | RX: 614 | Lost: 4447
+PDR: 12.132% | Loss: 87.868% | Delay: 226.973 ms | Jitter: 88.638 ms | Throughput: 21.970 kbps
+Energy consumed: 757.066 J | Network lifetime: 14.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: low_battery | Seed: 42 | Run: 3
+Offered: 5061 | Source TX accepted: 5061 | RX: 0 | Lost: 5061
+PDR: 0.000% | Loss: 100.000% | Delay: 0.000 ms | Jitter: 0.000 ms | Throughput: 0.000 kbps
+Energy consumed: 757.411 J | Network lifetime: 14.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: low_battery | Seed: 42 | Run: 4
+Offered: 5061 | Source TX accepted: 5061 | RX: 542 | Lost: 4519
+PDR: 10.709% | Loss: 89.291% | Delay: 283.071 ms | Jitter: 111.539 ms | Throughput: 19.394 kbps
+Energy consumed: 757.214 J | Network lifetime: 14.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: low_battery | Seed: 42 | Run: 5
+Offered: 5061 | Source TX accepted: 5061 | RX: 0 | Lost: 5061
+PDR: 0.000% | Loss: 100.000% | Delay: 0.000 ms | Jitter: 0.000 ms | Throughput: 0.000 kbps
+Energy consumed: 757.410 J | Network lifetime: 14.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: low_battery | Seed: 42 | Run: 6
+Offered: 5061 | Source TX accepted: 5061 | RX: 1088 | Lost: 3973
+PDR: 21.498% | Loss: 78.502% | Delay: 139.473 ms | Jitter: 48.119 ms | Throughput: 38.931 kbps
+Energy consumed: 756.992 J | Network lifetime: 13.240 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: low_battery | Seed: 42 | Run: 7
+Offered: 5061 | Source TX accepted: 5061 | RX: 810 | Lost: 4251
+PDR: 16.005% | Loss: 83.995% | Delay: 186.092 ms | Jitter: 67.367 ms | Throughput: 28.983 kbps
+Energy consumed: 756.201 J | Network lifetime: 14.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: low_battery | Seed: 42 | Run: 8
+Offered: 5061 | Source TX accepted: 5061 | RX: 0 | Lost: 5061
+PDR: 0.000% | Loss: 100.000% | Delay: 0.000 ms | Jitter: 0.000 ms | Throughput: 0.000 kbps
+Energy consumed: 756.243 J | Network lifetime: 14.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: low_battery | Seed: 42 | Run: 9
+Offered: 5061 | Source TX accepted: 5061 | RX: 0 | Lost: 5061
+PDR: 0.000% | Loss: 100.000% | Delay: 0.000 ms | Jitter: 0.000 ms | Throughput: 0.000 kbps
+Energy consumed: 757.036 J | Network lifetime: 14.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: low_battery | Seed: 42 | Run: 10
+Offered: 5061 | Source TX accepted: 5061 | RX: 0 | Lost: 5061
+PDR: 0.000% | Loss: 100.000% | Delay: 0.000 ms | Jitter: 0.000 ms | Throughput: 0.000 kbps
+Energy consumed: 757.682 J | Network lifetime: 14.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: relay_failure | Seed: 42 | Run: 1
+Offered: 5061 | Source TX accepted: 5061 | RX: 484 | Lost: 4577
+PDR: 9.563% | Loss: 90.437% | Delay: 0.474 ms | Jitter: 0.267 ms | Throughput: 17.318 kbps
+Energy consumed: 1965.827 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: relay_failure | Seed: 42 | Run: 2
+Offered: 5061 | Source TX accepted: 5061 | RX: 1016 | Lost: 4045
+PDR: 20.075% | Loss: 79.925% | Delay: 8.506 ms | Jitter: 4.366 ms | Throughput: 36.354 kbps
+Energy consumed: 1965.971 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: relay_failure | Seed: 42 | Run: 3
+Offered: 5061 | Source TX accepted: 5061 | RX: 32 | Lost: 5029
+PDR: 0.632% | Loss: 99.368% | Delay: 375.488 ms | Jitter: 139.996 ms | Throughput: 1.145 kbps
+Energy consumed: 1965.822 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: relay_failure | Seed: 42 | Run: 4
+Offered: 5061 | Source TX accepted: 5061 | RX: 495 | Lost: 4566
+PDR: 9.781% | Loss: 90.219% | Delay: 7.231 ms | Jitter: 2.502 ms | Throughput: 17.712 kbps
+Energy consumed: 1965.833 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: relay_failure | Seed: 42 | Run: 5
+Offered: 5061 | Source TX accepted: 5061 | RX: 408 | Lost: 4653
+PDR: 8.062% | Loss: 91.938% | Delay: 6.746 ms | Jitter: 5.675 ms | Throughput: 14.599 kbps
+Energy consumed: 1965.890 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: relay_failure | Seed: 42 | Run: 6
+Offered: 5061 | Source TX accepted: 5061 | RX: 1607 | Lost: 3454
+PDR: 31.753% | Loss: 68.247% | Delay: 216.870 ms | Jitter: 15.952 ms | Throughput: 57.501 kbps
+Energy consumed: 1966.070 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: relay_failure | Seed: 42 | Run: 7
+Offered: 5061 | Source TX accepted: 5061 | RX: 1065 | Lost: 3996
+PDR: 21.043% | Loss: 78.957% | Delay: 223.108 ms | Jitter: 14.388 ms | Throughput: 38.108 kbps
+Energy consumed: 1965.823 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: relay_failure | Seed: 42 | Run: 8
+Offered: 5061 | Source TX accepted: 5061 | RX: 12 | Lost: 5049
+PDR: 0.237% | Loss: 99.763% | Delay: 1.866 ms | Jitter: 1.821 ms | Throughput: 0.429 kbps
+Energy consumed: 1965.832 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: relay_failure | Seed: 42 | Run: 9
+Offered: 5061 | Source TX accepted: 5061 | RX: 0 | Lost: 5061
+PDR: 0.000% | Loss: 100.000% | Delay: 0.000 ms | Jitter: 0.000 ms | Throughput: 0.000 kbps
+Energy consumed: 1965.784 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: AODV | Scenario: relay_failure | Seed: 42 | Run: 10
+Offered: 5061 | Source TX accepted: 5061 | RX: 134 | Lost: 4927
+PDR: 2.648% | Loss: 97.352% | Delay: 15.149 ms | Jitter: 7.773 ms | Throughput: 4.795 kbps
+Energy consumed: 1965.849 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: relay_failure | Seed: 42 | Run: 1
+Offered: 5061 | Source TX accepted: 748 | RX: 369 | Lost: 4692
+PDR: 7.291% | Loss: 92.709% | Delay: 2.271 ms | Jitter: 2.668 ms | Throughput: 13.203 kbps
+Energy consumed: 1966.928 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: relay_failure | Seed: 42 | Run: 2
+Offered: 5061 | Source TX accepted: 881 | RX: 742 | Lost: 4319
+PDR: 14.661% | Loss: 85.339% | Delay: 0.694 ms | Jitter: 0.750 ms | Throughput: 26.550 kbps
+Energy consumed: 1966.730 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: relay_failure | Seed: 42 | Run: 3
+Offered: 5061 | Source TX accepted: 130 | RX: 13 | Lost: 5048
+PDR: 0.257% | Loss: 99.743% | Delay: 12.603 ms | Jitter: 15.702 ms | Throughput: 0.465 kbps
+Energy consumed: 1966.413 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: relay_failure | Seed: 42 | Run: 4
+Offered: 5061 | Source TX accepted: 514 | RX: 457 | Lost: 4604
+PDR: 9.030% | Loss: 90.970% | Delay: 0.506 ms | Jitter: 0.313 ms | Throughput: 16.352 kbps
+Energy consumed: 1966.008 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: relay_failure | Seed: 42 | Run: 5
+Offered: 5061 | Source TX accepted: 438 | RX: 310 | Lost: 4751
+PDR: 6.125% | Loss: 93.875% | Delay: 0.892 ms | Jitter: 0.504 ms | Throughput: 11.092 kbps
+Energy consumed: 1965.816 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: relay_failure | Seed: 42 | Run: 6
+Offered: 5061 | Source TX accepted: 1687 | RX: 993 | Lost: 4068
+PDR: 19.621% | Loss: 80.379% | Delay: 12.290 ms | Jitter: 9.584 ms | Throughput: 35.531 kbps
+Energy consumed: 1969.763 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: relay_failure | Seed: 42 | Run: 7
+Offered: 5061 | Source TX accepted: 1064 | RX: 922 | Lost: 4139
+PDR: 18.218% | Loss: 81.782% | Delay: 0.642 ms | Jitter: 0.478 ms | Throughput: 32.991 kbps
+Energy consumed: 1965.837 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: relay_failure | Seed: 42 | Run: 8
+Offered: 5061 | Source TX accepted: 130 | RX: 29 | Lost: 5032
+PDR: 0.573% | Loss: 99.427% | Delay: 5.594 ms | Jitter: 5.674 ms | Throughput: 1.038 kbps
+Energy consumed: 1966.184 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: relay_failure | Seed: 42 | Run: 9
+Offered: 5061 | Source TX accepted: 0 | RX: 0 | Lost: 5061
+PDR: 0.000% | Loss: 100.000% | Delay: 0.000 ms | Jitter: 0.000 ms | Throughput: 0.000 kbps
+Energy consumed: 1965.705 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: OLSR | Scenario: relay_failure | Seed: 42 | Run: 10
+Offered: 5061 | Source TX accepted: 254 | RX: 162 | Lost: 4899
+PDR: 3.201% | Loss: 96.799% | Delay: 2.341 ms | Jitter: 1.967 ms | Throughput: 5.797 kbps
+Energy consumed: 1966.215 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: relay_failure | Seed: 42 | Run: 1
+Offered: 5061 | Source TX accepted: 5061 | RX: 474 | Lost: 4587
+PDR: 9.366% | Loss: 90.634% | Delay: 315.617 ms | Jitter: 126.539 ms | Throughput: 16.961 kbps
+Energy consumed: 1965.658 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: relay_failure | Seed: 42 | Run: 2
+Offered: 5061 | Source TX accepted: 5061 | RX: 1065 | Lost: 3996
+PDR: 21.043% | Loss: 78.957% | Delay: 134.548 ms | Jitter: 55.982 ms | Throughput: 38.108 kbps
+Energy consumed: 1965.829 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: relay_failure | Seed: 42 | Run: 3
+Offered: 5061 | Source TX accepted: 5061 | RX: 0 | Lost: 5061
+PDR: 0.000% | Loss: 100.000% | Delay: 0.000 ms | Jitter: 0.000 ms | Throughput: 0.000 kbps
+Energy consumed: 1965.605 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: relay_failure | Seed: 42 | Run: 4
+Offered: 5061 | Source TX accepted: 5061 | RX: 542 | Lost: 4519
+PDR: 10.709% | Loss: 89.291% | Delay: 283.071 ms | Jitter: 111.539 ms | Throughput: 19.394 kbps
+Energy consumed: 1965.629 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: relay_failure | Seed: 42 | Run: 5
+Offered: 5061 | Source TX accepted: 5061 | RX: 425 | Lost: 4636
+PDR: 8.398% | Loss: 91.602% | Delay: 340.970 ms | Jitter: 106.737 ms | Throughput: 15.207 kbps
+Energy consumed: 1965.661 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: relay_failure | Seed: 42 | Run: 6
+Offered: 5061 | Source TX accepted: 5061 | RX: 1136 | Lost: 3925
+PDR: 22.446% | Loss: 77.554% | Delay: 134.302 ms | Jitter: 47.225 ms | Throughput: 40.648 kbps
+Energy consumed: 1965.839 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: relay_failure | Seed: 42 | Run: 7
+Offered: 5061 | Source TX accepted: 5061 | RX: 810 | Lost: 4251
+PDR: 16.005% | Loss: 83.995% | Delay: 186.092 ms | Jitter: 67.367 ms | Throughput: 28.983 kbps
+Energy consumed: 1965.632 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: relay_failure | Seed: 42 | Run: 8
+Offered: 5061 | Source TX accepted: 5061 | RX: 0 | Lost: 5061
+PDR: 0.000% | Loss: 100.000% | Delay: 0.000 ms | Jitter: 0.000 ms | Throughput: 0.000 kbps
+Energy consumed: 1965.606 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: relay_failure | Seed: 42 | Run: 9
+Offered: 5061 | Source TX accepted: 5061 | RX: 0 | Lost: 5061
+PDR: 0.000% | Loss: 100.000% | Delay: 0.000 ms | Jitter: 0.000 ms | Throughput: 0.000 kbps
+Energy consumed: 1965.604 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+RelayNet NS-3 MANET simulation completed
+Protocol: DSR | Scenario: relay_failure | Seed: 42 | Run: 10
+Offered: 5061 | Source TX accepted: 5061 | RX: 150 | Lost: 4911
+PDR: 2.964% | Loss: 97.036% | Delay: 981.652 ms | Jitter: 379.857 ms | Throughput: 5.367 kbps
+Energy consumed: 1965.642 J | Network lifetime: 120.000 s
+CSV: /mnt/d/RelayNet/results/ns3_multiseed_final.csv
