@@ -8,6 +8,7 @@ import streamlit as st
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 RESULTS_DIR = PROJECT_ROOT / "results"
+NS3_ANALYSIS_DIR = RESULTS_DIR / "ns3_analysis"
 
 SCENARIO_LABELS = {
     "normal": "Normal",
@@ -87,6 +88,23 @@ def show_image(filename, caption):
     else:
         st.warning(f"Generate `{filename}` from the Simulation Lab tab.")
 
+@st.cache_data(show_spinner=False)
+def load_ns3_csv(filename):
+    path = NS3_ANALYSIS_DIR / filename
+    if not path.exists():
+        return None
+    return pd.read_csv(path)
+
+
+def show_ns3_image(filename, caption):
+    path = NS3_ANALYSIS_DIR / filename
+    if path.exists():
+        st.image(str(path), caption=caption, use_container_width=True)
+    else:
+        st.warning(
+            f"Generate `results/ns3_analysis/{filename}` with "
+            "`python -m python.experiments.analyze_ns3_results`."
+        )
 
 def run_module(module):
     process = subprocess.run(
@@ -162,6 +180,7 @@ tabs = st.tabs([
     "Knowledge Graph",
     "Q-Learning",
     "Performance",
+    "NS-3 Validation",
     "Simulation Lab",
 ])
 
@@ -291,23 +310,202 @@ with tabs[4]:
         )
 
 with tabs[5]:
-    st.subheader("Run verified experiments")
-    st.caption("Run one module at a time. Longer evaluations may take several seconds.")
-    module_label = st.selectbox("Experiment", list(MODULES))
-    if st.button("Run experiment", type="primary", use_container_width=True):
-        with st.spinner(f"Running {module_label}..."):
-            try:
-                code, stdout, stderr = run_module(MODULES[module_label])
-            except subprocess.TimeoutExpired:
-                st.error("The experiment exceeded the 180-second dashboard limit.")
-            else:
-                if code == 0:
-                    st.success(f"{module_label} completed successfully.")
-                    st.cache_data.clear()
-                else:
-                    st.error(f"{module_label} exited with code {code}.")
-                st.code(stdout or stderr or "No terminal output", language="text")
-                if stderr and stdout:
-                    with st.expander("Diagnostic output"):
-                        st.code(stderr, language="text")
+    st.subheader("NS-3 independent MANET validation")
+    st.caption(
+        "Independent NS-3.47 baseline evaluation of AODV, OLSR and DSR. "
+        "These results are separate from the Python AEMRP/KG+MARL simulator."
+    )
 
+    ns3_summary = load_ns3_csv("ns3_multiseed_summary.csv")
+    ns3_rankings = load_ns3_csv("ns3_protocol_rankings.csv")
+
+    if ns3_summary is None or ns3_rankings is None:
+        st.warning(
+            "NS-3 analysis artifacts are missing. Run "
+            "`python -m python.experiments.analyze_ns3_results` first."
+        )
+    else:
+        ns3_scenario_labels = {
+            "normal": "Normal",
+            "high_mobility": "High Mobility",
+            "high_congestion": "High Congestion",
+            "low_battery": "Low Battery",
+            "relay_failure": "Relay Failure",
+        }
+
+        ns3_metric_labels = {
+            "pdr_percent": "Packet Delivery Ratio",
+            "loss_ratio_percent": "Packet Loss Ratio",
+            "average_delay_ms": "Average End-to-End Delay",
+            "average_jitter_ms": "Average Jitter",
+            "throughput_kbps": "Throughput",
+            "energy_consumed_j": "Energy Consumed",
+            "network_lifetime_s": "Network Lifetime",
+        }
+
+        ns3_scenario = st.selectbox(
+            "NS-3 scenario",
+            list(ns3_scenario_labels),
+            format_func=ns3_scenario_labels.get,
+            key="ns3_scenario",
+        )
+
+        selected_ns3 = ns3_summary[
+            ns3_summary["scenario"] == ns3_scenario
+        ].copy()
+
+        if selected_ns3.empty:
+            st.error("No NS-3 summary rows exist for this scenario.")
+        else:
+            best_pdr = selected_ns3.loc[
+                selected_ns3["pdr_percent_mean"].idxmax()
+            ]
+
+            best_throughput = selected_ns3.loc[
+                selected_ns3["throughput_kbps_mean"].idxmax()
+            ]
+
+            best_lifetime = selected_ns3.loc[
+                selected_ns3["network_lifetime_s_mean"].idxmax()
+            ]
+
+            kpi_cols = st.columns(4)
+
+            kpi_cols[0].metric(
+                "Best PDR",
+                f"{best_pdr['pdr_percent_mean']:.3f}%",
+                best_pdr["protocol"],
+            )
+
+            kpi_cols[1].metric(
+                "Best throughput",
+                f"{best_throughput['throughput_kbps_mean']:.3f} kbps",
+                best_throughput["protocol"],
+            )
+
+            kpi_cols[2].metric(
+                "Best lifetime",
+                f"{best_lifetime['network_lifetime_s_mean']:.3f} s",
+                best_lifetime["protocol"],
+            )
+
+            kpi_cols[3].metric(
+                "Runs",
+                "30",
+                "3 protocols × 10 seeds",
+            )
+
+            st.markdown("#### Protocol comparison")
+
+            comparison = selected_ns3[
+                [
+                    "protocol",
+                    "pdr_percent_mean",
+                    "pdr_percent_std",
+                    "loss_ratio_percent_mean",
+                    "average_delay_ms_mean",
+                    "average_jitter_ms_mean",
+                    "throughput_kbps_mean",
+                    "energy_consumed_j_mean",
+                    "network_lifetime_s_mean",
+                ]
+            ].copy()
+
+            comparison["Protocol"] = comparison["protocol"]
+            comparison["PDR (%)"] = comparison["pdr_percent_mean"]
+            comparison["PDR ±"] = comparison["pdr_percent_std"]
+            comparison["Loss (%)"] = comparison["loss_ratio_percent_mean"]
+            comparison["Delay (ms)"] = comparison["average_delay_ms_mean"]
+            comparison["Jitter (ms)"] = comparison["average_jitter_ms_mean"]
+            comparison["Throughput (kbps)"] = comparison[
+                "throughput_kbps_mean"
+            ]
+            comparison["Energy (J)"] = comparison["energy_consumed_j_mean"]
+            comparison["Lifetime (s)"] = comparison[
+                "network_lifetime_s_mean"
+            ]
+
+            st.dataframe(
+                comparison[
+                    [
+                        "Protocol",
+                        "PDR (%)",
+                        "PDR ±",
+                        "Loss (%)",
+                        "Delay (ms)",
+                        "Jitter (ms)",
+                        "Throughput (kbps)",
+                        "Energy (J)",
+                        "Lifetime (s)",
+                    ]
+                ].round(3),
+                hide_index=True,
+                use_container_width=True,
+            )
+
+            st.markdown("#### Protocol ranking")
+
+            ranking_metric = st.selectbox(
+                "Ranking metric",
+                list(ns3_metric_labels),
+                format_func=ns3_metric_labels.get,
+                key="ns3_ranking_metric",
+            )
+
+            ranking_view = ns3_rankings[
+                (ns3_rankings["scenario"] == ns3_scenario)
+                & (ns3_rankings["metric"] == ranking_metric)
+            ].copy()
+
+            ranking_view["Protocol"] = ranking_view["protocol"]
+            ranking_view["Rank"] = ranking_view["rank"]
+            ranking_view["Mean"] = ranking_view["mean"]
+            ranking_view["Std. dev."] = ranking_view["std"]
+
+            st.dataframe(
+                ranking_view[
+                    ["Rank", "Protocol", "Mean", "Std. dev."]
+                ].sort_values("Rank").round(3),
+                hide_index=True,
+                use_container_width=True,
+            )
+
+            st.markdown("#### NS-3 analysis graphs")
+
+            ns3_graphs = [
+                ("ns3_pdr_percent.png", "Packet Delivery Ratio"),
+                ("ns3_loss_ratio_percent.png", "Packet Loss Ratio"),
+                ("ns3_average_delay_ms.png", "Average End-to-End Delay"),
+                ("ns3_average_jitter_ms.png", "Average Jitter"),
+                ("ns3_throughput_kbps.png", "Throughput"),
+                ("ns3_energy_consumed_j.png", "Energy Consumed"),
+                ("ns3_network_lifetime_s.png", "Network Lifetime"),
+            ]
+
+            for index in range(0, len(ns3_graphs), 2):
+                columns = st.columns(2)
+
+                for column, (filename, caption) in zip(
+                    columns,
+                    ns3_graphs[index:index + 2],
+                ):
+                    with column:
+                        show_ns3_image(filename, caption)
+
+            st.info(
+                "NS-3 provides independent MANET baseline validation. "
+                "Its absolute percentages should not be directly compared "
+                "with the Python simulator because the topology, traffic, "
+                "radio, mobility and packet models differ."
+            )
+
+            st.download_button(
+                "Download NS-3 summary CSV",
+                ns3_summary.to_csv(index=False),
+                file_name="ns3_multiseed_summary.csv",
+                mime="text/csv",
+            )
+
+
+with tabs[6]:
+    st.subheader("Run verified experiments")
