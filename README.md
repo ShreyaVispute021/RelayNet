@@ -1,304 +1,451 @@
-# RelayNet
+# RelayNet --- Adaptive Emergency Mesh Routing Protocol (AEMRP)
 
-### Adaptive Emergency Mesh Routing Protocol for Infrastructure-less Disaster Communication
+**MeshMinds · B.Tech CSE · VIT Vellore**
 
-[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![Status](https://img.shields.io/badge/status-simulation%20prototype-orange)](#current-scope-and-roadmap)
-[![Evaluation](https://img.shields.io/badge/evaluation-10%20seeds%20%C3%97%205%20scenarios-2ea44f)](#evaluation)
+RelayNet is a semester-level research prototype for adaptive emergency
+communication in disaster environments where cellular towers, wired
+networks, or normal communication infrastructure may be damaged. It
+models ground devices communicating through mobile UAV relay nodes and
+evaluates adaptive relay selection using network context, a temporal
+Knowledge Graph (KG), and independent multi-agent Q-learning.
 
-RelayNet is a simulation-based disaster communication system in which nearby
-devices and UAVs form an emergency mobile ad hoc network when cellular towers,
-the Internet, or other fixed infrastructure are unavailable.
+> **Scope:** AEMRP/KG+MARL is implemented in Python. NS-3 is used as an
+> independent MANET baseline-validation layer for AODV, OLSR, and DSR.
+> KG+RL is not implemented natively inside NS-3.
 
-The prototype implements the **Adaptive Emergency Mesh Routing Protocol
-(AEMRP)**. Its **Adaptive Emergency Relay Algorithm (AERA)** combines live
-network state, explainable Knowledge Graph (KG) reasoning, and lightweight
-multi-agent reinforcement learning (MARL) to select a suitable relay as
-conditions change.
+## Repository
 
-> **Project status:** the proposed information flow is implemented and tested
-> in a custom Python simulator. Physical devices, real UAVs, NS-3, and deep
-> MARL are future extensions—not features of the current prototype.
-
-## Why RelayNet?
-
-Traditional shortest-path or fixed routing decisions can become unreliable in
-a disaster network because relays move, batteries drain, queues fill, links
-degrade, and nodes may fail. RelayNet makes the routing decision using the
-relay's current context and its learned delivery experience instead of using
-hop count alone.
-
-## System terminology
-
-| Term | Meaning |
-|---|---|
-| **RelayNet** | The complete infrastructure-less disaster communication system |
-| **AEMRP** | The proposed adaptive routing protocol used by RelayNet |
-| **AERA** | The relay-selection algorithm inside AEMRP |
-| **Knowledge Graph** | A temporal, CSV-backed graph of relay observations and derived context |
-| **MARL** | Independent tabular Q-learning, with one Q-table for each UAV relay |
-
-## Implemented features
-
-- Simulated source, destination, and three UAV relay agents
-- Explicit MANET topology with range-based neighbour discovery, dynamic
-  wireless links, link costs, and Dijkstra multi-hop route discovery
-- Dynamic RSSI, battery, queue length, mobility, link stability, hop count,
-  UAV platform, and altitude
-- Packet generation, queueing, forwarding, probabilistic delivery, and energy
-  consumption
-- Temporal subject-predicate-object Knowledge Graph exported to CSV
-- Temporal KG simulation graph at T0, T5, and T10
-- Explainable relay recommendations: `PREFER`, `CAUTION`, and `AVOID`
-- Human-readable reasons such as low battery, high congestion, weak RSSI, or
-  poor link stability
-- Independent Q-learning agents with KG-assisted relay selection
-- Exported RL hyperparameters and per-episode learning metrics
-- Five disaster-network scenarios and four routing strategies
-- Single-seed and ten-seed evaluations with CSV results and comparison charts
+https://github.com/ShreyaVispute021/RelayNet
 
 ## Architecture
 
-```mermaid
-flowchart TD
-    A["Ground source and destination"] --> B["UAV mobile ad hoc network"]
-    B --> C["Live relay-state collection"]
-    C --> D["Temporal Knowledge Graph"]
-    D --> E["Contextual reasoning"]
-    E --> F["Independent Q-learning agents"]
-    F --> G["AERA relay selection"]
-    G --> H["Packet forwarding and evaluation"]
-    H -. "updated observations and rewards" .-> C
+``` text
+Dynamic Disaster MANET
+        ↓
+Network Observations
+(RSSI, battery, queue, mobility, stability, hops)
+        ↓
+Temporal Knowledge Graph
+        ↓
+Contextual Reasoning
+        ↓
+Independent Multi-Agent Q-Learning
+        ↓
+Relay Selection
+        ↓
+Packet Forwarding
+        ↓
+Performance Evaluation
 ```
 
-### Relay-selection flow
+Independent NS-3 validation:
 
-1. The simulator updates each relay's mobility, RSSI, battery, queue, and link
-   stability.
-2. The same state schema is represented in the temporal Knowledge Graph.
-3. Rule-based reasoning assigns a contextual score, recommendation, and
-   explanation to every available relay.
-4. Each relay's agent discretizes its state and retrieves a learned Q-value.
-5. AERA combines **65% contextual KG score** and **35% normalized learned
-   value**. An `AVOID` recommendation receives an additional penalty.
-6. The highest-ranked available relay forwards the packet. During training,
-   delivery outcome and relay condition update that relay's Q-table.
-
-The weighted baseline uses normalized RSSI, battery, queue availability,
-mobility, link stability, and hop count. The KG method changes the emphasis and
-adds explicit contextual warnings; the learning method uses delivery feedback
-to improve future selections.
-
-## Routing methods compared
-
-| Method | Description |
-|---|---|
-| `static` | Selects the available relay with the smallest hop count |
-| `baseline` | Uses a weighted score over six current network features |
-| `contextual_kg` | Applies KG-compatible contextual rules and recommendations |
-| `kg_marl` | Combines the contextual KG score with independent Q-learning |
-
-## Scenarios and metrics
-
-The evaluation sends 1,000 packets per run under five conditions:
-
-- `normal`
-- `high_mobility`
-- `high_congestion`
-- `low_battery`
-- `relay_failure` (relay R2 fails after time step 500)
-
-Each method is evaluated using packet delivery ratio (PDR), packet loss ratio,
-average end-to-end delay, throughput, total UAV energy consumption, and network
-lifetime.
-
-## Repository structure
-
-```text
-RelayNet/
-├── data/
-│   └── relaynet_simulation.csv
-├── docs/
-│   └── evaluation_summary.md
-├── python/
-│   ├── experiments/          # Scenario, KG, MARL, and multi-seed runs
-│   └── relaynet/             # Network, routing, KG, and learning modules
-├── results/                  # Generated CSV files, Q-tables, and charts
-└── README.md
+``` text
+NS-3.47
+  ├── AODV
+  ├── OLSR
+  └── DSR
+        ↓
+5 scenarios × 10 runs/protocol
+        ↓
+Statistical analysis
 ```
 
-## Installation
+## Features
 
-### Prerequisites
+### Dynamic MANET
 
-- Python 3.10 or later
-- Git
+-   Source, destination, and three UAV relays: R1, R2, R3
+-   Automatic neighbour discovery
+-   3-D wireless-distance calculation
+-   Dynamic wireless links
+-   Link-cost calculation
+-   Dijkstra multi-hop route discovery
+-   Relay-failure handling
+-   Mobility and link-stability changes
+-   MANET topology visualization
+-   Routing-log export
 
-Clone the repository and enter its root directory:
+### Relay-selection methods
 
-```bash
-git clone https://github.com/ShreyaVispute021/RelayNet.git
-cd RelayNet
+  Method          Description
+  --------------- -----------------------------------------
+  Static          Fixed/static relay selection
+  Baseline        Weighted network-condition score
+  Contextual KG   Knowledge-Graph contextual reasoning
+  KG + MARL       KG score combined with learned Q-values
+
+Weighted baseline:
+
+-   RSSI: 25%
+-   Battery: 20%
+-   Queue: 15%
+-   Mobility: 10%
+-   Link stability: 20%
+-   Hop count: 10%
+
+### Temporal Knowledge Graph
+
+The KG uses temporal subject--predicate--object triples stored in CSV.
+
+Predicates include `HAS_RSSI`, `HAS_BATTERY`, `HAS_QUEUE_LENGTH`,
+`HAS_MOBILITY`, `HAS_LINK_STABILITY`, `HAS_HOP_COUNT`, `HAS_SCORE`,
+`SELECTED`, `AVAILABLE`, and `HAS_CONTEXT`.
+
+Derived facts include `SUFFICIENT_BATTERY`, `LOW_QUEUE`, `STABLE_LINK`,
+`LOW_MOBILITY`, and `STRONG_RSSI`.
+
+Verified KG:
+
+-   330 raw temporal triples
+-   216 derived contextual triples
+-   546 total triples
+
+Relay recommendations are classified as `PREFER`, `CAUTION`, or `AVOID`.
+
+The current KG uses CSV storage and Python visualization. **Neo4j is
+future work.**
+
+### Multi-agent Q-learning
+
+Each UAV relay maintains an independent Q-table.
+
+``` text
+FinalScore = 0.65 × KGScore + 0.35 × QScore
 ```
 
-Create a virtual environment and install the plotting/data-analysis packages:
+Verified parameters:
 
-```bash
-python -m venv .venv
-source .venv/Scripts/activate   # Git Bash on Windows
-python -m pip install --upgrade pip
-python -m pip install matplotlib pandas
-```
+  Parameter                   Value
+  ------------------------- -------
+  Learning rate                0.15
+  Discount factor              0.90
+  Epsilon start                0.20
+  Epsilon decay                0.97
+  Epsilon minimum              0.02
+  KG weight                    0.65
+  Training episodes              60
+  Packets / episode             250
+  Success reward                4.0
+  Failure reward               -1.0
+  Stability reward weight       0.4
+  Battery reward weight        0.25
+  Queue penalty weight          0.5
+  Random seed                    42
 
-On PowerShell, activate the environment with:
+The verified training run learned 44 Q-table entries.
 
-```powershell
-.\.venv\Scripts\Activate.ps1
-```
+## Scenarios
 
-## Run the project
+1.  `normal`
+2.  `high_mobility`
+3.  `high_congestion`
+4.  `low_battery`
+5.  `relay_failure`
 
-Run commands from the repository root so Python can resolve the `python`
-package correctly.
+## Python Evaluation
 
-### Launch the integrated dashboard
+The complete evaluation contains:
 
-Install the dependencies and start the RelayNet Control Center:
+**5 scenarios × 4 methods × 10 seeds = 200 runs**
 
-```bash
-python -m pip install matplotlib pandas streamlit
+Metrics:
+
+-   Packet Delivery Ratio
+-   Packet-loss ratio
+-   Average delay
+-   Throughput
+-   Energy consumption
+-   Network lifetime
+
+### Selected results
+
+#### Normal
+
+  Method                           PDR
+  ------------------- ----------------
+  Static                27.81% ± 1.87%
+  Weighted Baseline     28.52% ± 1.82%
+  Contextual KG         28.35% ± 1.84%
+  KG + MARL             28.51% ± 1.91%
+
+#### High Mobility
+
+  Method                               PDR
+  ------------------- --------------------
+  Static                    19.93% ± 1.50%
+  Weighted Baseline         20.43% ± 1.49%
+  Contextual KG             20.43% ± 1.47%
+  KG + MARL             **20.48% ± 1.44%**
+
+KG + MARL achieves the best PDR and throughput in high mobility, but it
+does not win in every scenario. Under low-battery conditions it
+currently underperforms simpler methods.
+
+**Conclusion:** KG-assisted multi-agent Q-learning provides adaptive and
+competitive relay selection, particularly under high mobility. The
+current reward function requires further optimization for low-battery
+conditions.
+
+## NS-3.47 Validation
+
+NS-3 independently evaluates AODV, OLSR, and DSR.
+
+**5 scenarios × 3 protocols × 10 runs = 150 runs**
+
+The final NS-3 dataset contains 150 experiment rows.
+
+Average PDR:
+
+  Scenario                   AODV     OLSR      DSR
+  ----------------- ------------- -------- --------
+  Normal              **10.476%**   7.991%   9.186%
+  High mobility        **7.848%**   4.102%   5.056%
+  High congestion     **10.307%**   7.923%   8.561%
+  Low battery         **10.476%**   7.991%   6.760%
+  Relay failure       **10.379%**   7.898%   9.093%
+
+AODV produced the highest average PDR in all five NS-3 scenarios. High
+mobility was the most difficult scenario.
+
+> **Important:** NS-3 percentages must not be directly compared with
+> Python percentages because the two implementations use different
+> topology, traffic, radio, mobility, and packet models. NS-3 is
+> independent MANET baseline validation.
+
+## Streamlit Dashboard
+
+Launch from the repository root:
+
+``` bash
 python -m streamlit run dashboard/app.py
 ```
 
-The dashboard combines scenario controls, MANET topology, KG reasoning,
-Q-learning parameters and training progress, multi-seed metrics, downloadable
-results, and buttons for running the verified experiment modules.
+Dashboard tabs:
 
-### Recommended demonstration
+-   **Overview** --- scenario comparison and KPIs
+-   **MANET** --- topology and routing log
+-   **Knowledge Graph** --- KG visualization and triple explorer
+-   **Q-Learning** --- parameters, training progress, and Q-table
+-   **Performance** --- Python multi-seed charts
+-   **NS-3 Validation** --- scenario selection, AODV/OLSR/DSR
+    comparison, rankings, KPIs, and all seven NS-3 graphs
+-   **Simulation Lab** --- run verified Python experiments
 
-```bash
-# 1. Generate live relay-state observations
-python -m python.experiments.dynamic_scenario
+## Project Structure
 
-# 2. Demonstrate MANET neighbour discovery and multi-hop routing
+``` text
+RelayNet/
+├── dashboard/
+│   └── app.py
+├── python/
+│   ├── relaynet/
+│   │   ├── manet.py
+│   │   ├── knowledge_graph.py
+│   │   ├── knowledge_graph_query.py
+│   │   ├── marl_agent.py
+│   │   └── rl_config.py
+│   └── experiments/
+│       ├── scenario_experiment.py
+│       ├── manet_simulation.py
+│       ├── visualize_knowledge_graph.py
+│       ├── kg_contextual_reasoning.py
+│       ├── kg_marl_experiment.py
+│       ├── multi_seed_evaluation.py
+│       └── analyze_ns3_results.py
+├── ns3/
+│   └── relaynet-manet.cc
+├── results/
+│   └── ns3_analysis/
+└── README.md
+```
+
+## Requirements
+
+Python 3.14.2 was used for the project.
+
+Install dependencies:
+
+``` bash
+python -m pip install matplotlib pandas streamlit
+```
+
+A `requirements.txt` file is intentionally not maintained.
+
+NS-3:
+
+-   NS-3.47
+-   WSL Ubuntu
+
+The custom NS-3 source is stored at:
+
+``` text
+ns3/relaynet-manet.cc
+```
+
+For execution it is copied to:
+
+``` text
+/home/shree/ns-3.47/scratch/relaynet-manet.cc
+```
+
+## Running the Experiments
+
+### MANET
+
+``` bash
 python -m python.experiments.manet_simulation
+```
 
-# 3. Construct and export the temporal Knowledge Graph
+Outputs:
+
+``` text
+results/manet_routing_log.csv
+results/manet_topology.png
+```
+
+### Knowledge Graph
+
+``` bash
 python -m python.relaynet.knowledge_graph
-
-# 4. Generate the temporal KG simulation graph
 python -m python.experiments.visualize_knowledge_graph
-
-# 5. Show contextual recommendations and explanations
 python -m python.experiments.kg_contextual_reasoning
+```
 
-# 6. Verify KG-assisted selection against live relay objects
-python -m python.experiments.kg_integration_test
+### KG + MARL
 
-# 7. Train agents; export parameters, metrics, Q-tables, and graphs
+``` bash
 python -m python.experiments.kg_marl_experiment
+```
 
-# 8. Run the final ten-seed evaluation and generate charts
+Outputs include:
+
+``` text
+results/rl_parameters.json
+results/rl_training_metrics.csv
+results/rl_training_progress.png
+results/marl_q_tables.csv
+results/kg_marl_comparison.csv
+```
+
+### Python multi-seed evaluation
+
+``` bash
 python -m python.experiments.multi_seed_evaluation
 ```
 
-For a shorter comparison without agent training:
+### NS-3 analysis
 
-```bash
-python -m python.experiments.contextual_routing_comparison
+``` bash
+python -m python.experiments.analyze_ns3_results
 ```
 
-## Evaluation
+Outputs:
 
-The final experiment trains independent Q-learning agents for 60 episodes
-across all five scenarios, then evaluates every method using ten random seeds
-(40–49). This produces 200 evaluation runs:
-
-```text
-5 scenarios × 4 routing methods × 10 seeds = 200 runs
+``` text
+results/ns3_analysis/ns3_multiseed_summary.csv
+results/ns3_analysis/ns3_protocol_rankings.csv
+results/ns3_analysis/*.png
 ```
 
-### Preliminary ten-seed results: high mobility
+## Running NS-3
 
-| Method | Mean PDR | Mean delay | Mean throughput |
-|---|---:|---:|---:|
-| Static | 19.93% | 9.36 steps | 0.816 kbps |
-| Weighted baseline | 20.43% | 18.33 steps | 0.837 kbps |
-| Contextual KG | 20.43% | 15.70 steps | 0.837 kbps |
-| **KG + MARL** | **20.48%** | 16.59 steps | **0.839 kbps** |
+Run NS-3 from WSL:
 
-KG + MARL achieves the highest mean PDR and throughput in the high-mobility
-scenario. Contextual KG reduces delay relative to the weighted baseline in
-several dynamic conditions. The methods remain close overall, and KG + MARL
-does **not** dominate every scenario or metric. In particular, low-battery
-routing requires stronger lifetime-aware reward shaping.
+``` bash
+cd ~/ns-3.47
+```
 
-![Ten-seed PDR comparison](results/multi_seed_pdr.png)
+Example:
 
-![Ten-seed throughput comparison](results/multi_seed_throughput_kbps.png)
+``` bash
+./ns3 run "scratch/relaynet-manet --protocol=AODV --scenario=normal --output=/mnt/d/RelayNet/results/ns3_results.csv --seed=42 --run=1"
+```
 
-Full results are available in
-[`docs/evaluation_summary.md`](docs/evaluation_summary.md) and the generated
-CSV files.
+Path conventions:
 
-## Generated outputs
+  Environment   Path
+  ------------- -------------------
+  Git Bash      `/d/RelayNet`
+  WSL           `/mnt/d/RelayNet`
 
-| Output | Purpose |
-|---|---|
-| `data/relaynet_simulation.csv` | Time-varying relay observations |
-| `results/manet_routing_log.csv` | Dynamic links, routes, hop counts, and costs |
-| `results/manet_topology.png` | MANET snapshots with discovered routes |
-| `results/relaynet_knowledge_graph.csv` | Temporal KG triples and derived reasoning |
-| `results/kg_simulation_graph.png` | Visual KG snapshots at T0, T5, and T10 |
-| `results/marl_q_tables.csv` | Learned per-relay Q-table entries |
-| `results/rl_parameters.json` | Exact Q-learning, exploration, and reward parameters |
-| `results/rl_training_metrics.csv` | Reward, delivery rate, TD error, epsilon, and table growth |
-| `results/rl_training_progress.png` | Four-panel RL learning-progress graph |
-| `results/kg_marl_comparison.csv` | Same-seed comparison of all routing methods |
-| `results/multi_seed_detailed.csv` | Results for every seed, scenario, and method |
-| `results/multi_seed_summary.csv` | Mean and standard deviation for all metrics |
-| `results/multi_seed_*.png` | Six ten-seed metric comparison charts |
+## Reproducibility
 
-## Current scope and roadmap
+Python:
 
-### Completed in the prototype
+-   10 seeds per scenario/method
+-   RL random seed: 42
 
-- End-to-end custom Python network simulation
-- Range-based MANET topology and multi-hop route discovery
-- Dynamic relay state collection and synthetic dataset generation
-- Weighted, contextual KG, and KG + MARL relay selection
-- Explainable KG recommendations and temporal triple export
-- Scenario-based packet, delay, throughput, energy, and lifetime evaluation
-- Reproducible ten-seed comparison and result visualization
-- RL hyperparameter, reward, exploration, and learning-metric reporting
+NS-3:
 
-### Planned extensions
+-   10 runs per protocol/scenario
+-   Seed and run controls are exposed by the simulation
 
-- Device-to-device socket demonstration for actual message transfer
-- NS-3 implementation and comparison with protocols such as AODV and DSR
-- Wireshark-based packet validation
-- Persistent graph storage using SQLite or Neo4j
-- AirSim or physical UAV integration
-- Larger and more realistic topologies
-- Emergency-priority traffic and explicit historical-success features
-- Improved reward shaping and deeper multi-agent algorithms such as MADDPG
+Total evaluated runs:
+
+``` text
+Python: 200
+NS-3:   150
+Total:  350
+```
 
 ## Limitations
 
-RelayNet currently uses synthetic mobility and traffic, a simplified delivery
-model, three simulated UAV relays, a CSV-backed graph, and tabular independent
-Q-learning. The results establish prototype feasibility and explainable
-adaptation; they should not be interpreted as real-world deployment results.
+This is a semester-level simulation and research prototype, not a
+production emergency communication system.
 
-## Project details
+Not currently implemented:
 
-- **Team:** MeshMind
-- **Developer:** Shreya Ganesh Vispute (24BCE0563)
-- **Institution:** Vellore Institute of Technology, Vellore
-- **Faculty guide:** Dr. Yoganand S
-- **Repository:** [github.com/ShreyaVispute021/RelayNet](https://github.com/ShreyaVispute021/RelayNet)
+-   AEMRP natively inside NS-3
+-   KG directly connected to NS-3 during simulation
+-   Q-learning directly connected to NS-3 during simulation
+-   Neo4j
+-   Deep MARL such as MADDPG
+-   Physical UAV deployment
+-   Real mobile-device communication
+-   Wi-Fi Direct deployment
+-   Bluetooth Mesh deployment
+-   Production emergency application infrastructure
 
----
+The current reward function also has a known limitation under
+low-battery conditions.
 
-RelayNet is an academic prototype developed to study adaptive and explainable
-emergency routing for infrastructure-less disaster communication.
+## Future Work
+
+-   Connect AEMRP directly to NS-3.
+-   Integrate a persistent graph database such as Neo4j.
+-   Improve battery-aware reward shaping.
+-   Explore advanced MARL algorithms such as MADDPG.
+-   Add more realistic UAV mobility and wireless-channel models.
+-   Evaluate larger and more heterogeneous disaster topologies.
+-   Validate on real UAV/mobile hardware.
+-   Model more realistic emergency traffic.
+-   Evaluate simultaneous multi-relay failures.
+-   Explore real-time adaptive routing.
+
+## Key Takeaway
+
+RelayNet demonstrates a complete research prototype:
+
+``` text
+Network State
+    ↓
+Dynamic MANET
+    ↓
+Temporal Knowledge Graph
+    ↓
+Contextual Reasoning
+    ↓
+Multi-Agent Q-Learning
+    ↓
+Adaptive Relay Selection
+    ↓
+Packet Forwarding
+    ↓
+Performance Evaluation
+```
+
+The Python evaluation demonstrates adaptive and competitive KG-assisted
+relay selection, particularly under high mobility. Independent NS-3
+validation provides additional evidence using established MANET
+protocols AODV, OLSR, and DSR.
