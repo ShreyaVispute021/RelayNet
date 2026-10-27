@@ -1,4 +1,4 @@
-# RelayNet --- Adaptive Emergency Mesh Routing Protocol (AEMRP)
+# RelayNet - Adaptive Emergency Mesh Routing Protocol (AEMRP)
 
 **MeshMinds · B.Tech CSE · VIT Vellore**
 
